@@ -15,6 +15,31 @@ namespace MapleEquips
         public Form1()
         {
             InitializeComponent();
+            Width = 671;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (Width == 977)
+            {
+                Width = 671;
+            }
+            else
+            {
+                Width = 977;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (Width == 977)
+            {
+                Width = 671;
+            }
+            else
+            {
+                Width = 977;
+            }
         }
     }
 }
