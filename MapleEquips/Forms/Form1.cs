@@ -41,5 +41,16 @@ namespace MapleEquips
                 Width = 977;
             }
         }
+
+        private void newCharacterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form newCharacter = new Forms.NewCharacter();
+            newCharacter.Show();
+        }
+
+        private void loadCharacterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
