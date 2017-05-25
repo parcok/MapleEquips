@@ -15,7 +15,7 @@ namespace MapleEquips
         public Form1()
         {
             InitializeComponent();
-            Width = 671;
+            Width = 1182;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace MapleEquips
 
         private void newCharacterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form newCharacter = new Forms.NewCharacter();
+            Form newCharacter = new Forms.NewCharacter(this);
             newCharacter.Show();
         }
 

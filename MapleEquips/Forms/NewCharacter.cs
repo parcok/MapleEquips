@@ -18,6 +18,14 @@ namespace MapleEquips.Forms
             comboBox1.SelectedIndex = 0;
         }
 
+        private Form1 mainForm = null;
+        public NewCharacter(Form callingForm)
+        {
+            mainForm = callingForm as Form1;
+            InitializeComponent();
+            comboBox1.SelectedIndex = 0;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "")
@@ -28,7 +36,7 @@ namespace MapleEquips.Forms
                 MessageBox.Show("Please select a valid class.");
             } else // TODO valid character creation, need to make the object first
             {
-
+                //this.mainForm.button1.Text = "Testing";
             }
 
         }
