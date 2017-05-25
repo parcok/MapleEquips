@@ -52,5 +52,14 @@ namespace MapleEquips
         {
 
         }
+
+        private void statsGroupBox_Enter(object sender, EventArgs e)
+        {
+            // you can move that group box here so you won't need to individually move all that shit individually and
+            // have to keep track of all the identifiers
+
+            // move based on whether the class name is mir or mech
+            statsGroupBox.Location = new Point(50, 310);
+        }
     }
 }
