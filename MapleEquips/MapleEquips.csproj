@@ -90,43 +90,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Blank_Inventory.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Blank Inventory.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Totem.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Arc.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Blank Mir.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Blank Mech.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Black Cube.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Craftsman Cube.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Red Cube.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ChuChu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Lach.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vanishing.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Star Force.png" />
+    <None Include="Resources\WepTest.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

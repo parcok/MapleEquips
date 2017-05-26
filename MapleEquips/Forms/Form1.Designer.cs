@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newCharacterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,35 +58,40 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panelMech = new System.Windows.Forms.Panel();
-            this.panelArc = new System.Windows.Forms.Panel();
-            this.panelTotem = new System.Windows.Forms.Panel();
-            this.panelEquip = new System.Windows.Forms.Panel();
-            this.panelMir = new System.Windows.Forms.Panel();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.statsGroupBox = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.panelMech = new System.Windows.Forms.Panel();
+            this.panelArc = new System.Windows.Forms.Panel();
+            this.panelTotem = new System.Windows.Forms.Panel();
+            this.panelEquip = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.panelMir = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
+            this.statsGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.statsGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panelEquip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -368,116 +372,6 @@
             this.label14.TabIndex = 39;
             this.label14.Text = "Total Star Force:";
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::MapleEquips.Properties.Resources.Star_Force;
-            this.pictureBox7.Location = new System.Drawing.Point(55, 208);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(13, 13);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 40;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::MapleEquips.Properties.Resources.Lach;
-            this.pictureBox4.Location = new System.Drawing.Point(282, 141);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 38;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::MapleEquips.Properties.Resources.ChuChu;
-            this.pictureBox5.Location = new System.Drawing.Point(282, 87);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 33;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::MapleEquips.Properties.Resources.Vanishing;
-            this.pictureBox6.Location = new System.Drawing.Point(282, 33);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 28;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::MapleEquips.Properties.Resources.Black_Cube;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 141);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::MapleEquips.Properties.Resources.Red_Cube;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 87);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::MapleEquips.Properties.Resources.Craftsman_Cube;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 33);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
-            // panelMech
-            // 
-            this.panelMech.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelMech.BackgroundImage")));
-            this.panelMech.Location = new System.Drawing.Point(924, 41);
-            this.panelMech.Name = "panelMech";
-            this.panelMech.Size = new System.Drawing.Size(214, 256);
-            this.panelMech.TabIndex = 7;
-            // 
-            // panelArc
-            // 
-            this.panelArc.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelArc.BackgroundImage")));
-            this.panelArc.Location = new System.Drawing.Point(284, 41);
-            this.panelArc.Name = "panelArc";
-            this.panelArc.Size = new System.Drawing.Size(171, 205);
-            this.panelArc.TabIndex = 6;
-            // 
-            // panelTotem
-            // 
-            this.panelTotem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelTotem.BackgroundImage")));
-            this.panelTotem.Location = new System.Drawing.Point(12, 41);
-            this.panelTotem.Name = "panelTotem";
-            this.panelTotem.Size = new System.Drawing.Size(46, 127);
-            this.panelTotem.TabIndex = 5;
-            // 
-            // panelEquip
-            // 
-            this.panelEquip.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelEquip.BackgroundImage")));
-            this.panelEquip.Location = new System.Drawing.Point(64, 41);
-            this.panelEquip.Name = "panelEquip";
-            this.panelEquip.Size = new System.Drawing.Size(214, 255);
-            this.panelEquip.TabIndex = 4;
-            // 
-            // panelMir
-            // 
-            this.panelMir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelMir.BackgroundImage")));
-            this.panelMir.Location = new System.Drawing.Point(704, 41);
-            this.panelMir.Name = "panelMir";
-            this.panelMir.Size = new System.Drawing.Size(214, 256);
-            this.panelMir.TabIndex = 0;
-            // 
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -496,16 +390,6 @@
             this.label15.Size = new System.Drawing.Size(83, 13);
             this.label15.TabIndex = 42;
             this.label15.Text = "Star Force Cost:";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::MapleEquips.Properties.Resources.Star_Force;
-            this.pictureBox8.Location = new System.Drawing.Point(328, 208);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(13, 13);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 43;
-            this.pictureBox8.TabStop = false;
             // 
             // textBox14
             // 
@@ -537,6 +421,7 @@
             // 
             // statsGroupBox
             // 
+            this.statsGroupBox.BackColor = System.Drawing.Color.Transparent;
             this.statsGroupBox.Controls.Add(this.label2);
             this.statsGroupBox.Controls.Add(this.textBox15);
             this.statsGroupBox.Controls.Add(this.label3);
@@ -575,6 +460,7 @@
             this.statsGroupBox.Controls.Add(this.label11);
             this.statsGroupBox.Controls.Add(this.textBox11);
             this.statsGroupBox.Controls.Add(this.pictureBox6);
+            this.statsGroupBox.Cursor = System.Windows.Forms.Cursors.Default;
             this.statsGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statsGroupBox.Location = new System.Drawing.Point(12, 310);
             this.statsGroupBox.Name = "statsGroupBox";
@@ -583,6 +469,150 @@
             this.statsGroupBox.TabStop = false;
             this.statsGroupBox.Text = "Stats";
             this.statsGroupBox.Enter += new System.EventHandler(this.statsGroupBox_Enter);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::MapleEquips.Properties.Resources.Star_Force;
+            this.pictureBox8.Location = new System.Drawing.Point(328, 208);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(13, 13);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 43;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MapleEquips.Properties.Resources.Craftsman_Cube;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 33);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::MapleEquips.Properties.Resources.Star_Force;
+            this.pictureBox7.Location = new System.Drawing.Point(55, 208);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(13, 13);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 40;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::MapleEquips.Properties.Resources.Lach;
+            this.pictureBox4.Location = new System.Drawing.Point(282, 141);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 38;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MapleEquips.Properties.Resources.Red_Cube;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 87);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::MapleEquips.Properties.Resources.ChuChu;
+            this.pictureBox5.Location = new System.Drawing.Point(282, 87);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 33;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::MapleEquips.Properties.Resources.Black_Cube;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 141);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 23;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::MapleEquips.Properties.Resources.Vanishing;
+            this.pictureBox6.Location = new System.Drawing.Point(282, 33);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 28;
+            this.pictureBox6.TabStop = false;
+            // 
+            // panelMech
+            // 
+            this.panelMech.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mech;
+            this.panelMech.Location = new System.Drawing.Point(924, 41);
+            this.panelMech.Name = "panelMech";
+            this.panelMech.Size = new System.Drawing.Size(214, 256);
+            this.panelMech.TabIndex = 7;
+            // 
+            // panelArc
+            // 
+            this.panelArc.BackgroundImage = global::MapleEquips.Properties.Resources.Arc;
+            this.panelArc.Location = new System.Drawing.Point(284, 41);
+            this.panelArc.Name = "panelArc";
+            this.panelArc.Size = new System.Drawing.Size(171, 205);
+            this.panelArc.TabIndex = 6;
+            // 
+            // panelTotem
+            // 
+            this.panelTotem.BackgroundImage = global::MapleEquips.Properties.Resources.Totem;
+            this.panelTotem.Location = new System.Drawing.Point(12, 41);
+            this.panelTotem.Name = "panelTotem";
+            this.panelTotem.Size = new System.Drawing.Size(46, 127);
+            this.panelTotem.TabIndex = 5;
+            // 
+            // panelEquip
+            // 
+            this.panelEquip.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Inventory;
+            this.panelEquip.Controls.Add(this.pictureBox10);
+            this.panelEquip.Controls.Add(this.pictureBox9);
+            this.panelEquip.Location = new System.Drawing.Point(64, 41);
+            this.panelEquip.Name = "panelEquip";
+            this.panelEquip.Size = new System.Drawing.Size(214, 255);
+            this.panelEquip.TabIndex = 4;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Image = global::MapleEquips.Properties.Resources.WepTest;
+            this.pictureBox10.Location = new System.Drawing.Point(48, 129);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 48;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = global::MapleEquips.Properties.Resources.Craftsman_Cube;
+            this.pictureBox9.Location = new System.Drawing.Point(170, 170);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 47;
+            this.pictureBox9.TabStop = false;
+            // 
+            // panelMir
+            // 
+            this.panelMir.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mir;
+            this.panelMir.Location = new System.Drawing.Point(704, 41);
+            this.panelMir.Name = "panelMir";
+            this.panelMir.Size = new System.Drawing.Size(214, 256);
+            this.panelMir.TabIndex = 0;
             // 
             // Form1
             // 
@@ -597,21 +627,25 @@
             this.Controls.Add(this.panelEquip);
             this.Controls.Add(this.panelMir);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.statsGroupBox.ResumeLayout(false);
             this.statsGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panelEquip.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -668,6 +702,8 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.GroupBox statsGroupBox;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
     }
 }
 
