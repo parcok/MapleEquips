@@ -15,7 +15,7 @@ namespace MapleEquips
         public Form1()
         {
             InitializeComponent();
-            Width = 1182;
+            //Width = 1182;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -59,7 +59,7 @@ namespace MapleEquips
             // have to keep track of all the identifiers
 
             // move based on whether the class name is mir or mech
-            statsGroupBox.Location = new Point(50, 310);
+            // fk sky statsGroupBox.Location = new Point(50, 310);
         }
     }
 }
