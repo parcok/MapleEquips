@@ -15,6 +15,13 @@ namespace MapleEquips {
         public Form1() {
             InitializeComponent();
             //Width = 1182;
+            pictureBox20.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
+            pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
+            pbMirWing.Image = MapleEquips.Properties.Resources.ChuChu;
+            pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
+            pbMirPendant.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
+            pbMechFrame.Image = MapleEquips.Properties.Resources.ChuChu;
+            pbMechTransistor.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
         }
 
         private void button1_Click(object sender, EventArgs e) {

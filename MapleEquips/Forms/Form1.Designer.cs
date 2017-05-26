@@ -76,9 +76,48 @@
             this.panelArc = new System.Windows.Forms.Panel();
             this.panelTotem = new System.Windows.Forms.Panel();
             this.panelEquip = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pbWeapon = new System.Windows.Forms.PictureBox();
+            this.pbCape = new System.Windows.Forms.PictureBox();
             this.panelMir = new System.Windows.Forms.Panel();
+            this.pbRing4 = new System.Windows.Forms.PictureBox();
+            this.pbRing3 = new System.Windows.Forms.PictureBox();
+            this.pbRing2 = new System.Windows.Forms.PictureBox();
+            this.pbRing1 = new System.Windows.Forms.PictureBox();
+            this.pbPocket = new System.Windows.Forms.PictureBox();
+            this.pbBook = new System.Windows.Forms.PictureBox();
+            this.pbPendant2 = new System.Windows.Forms.PictureBox();
+            this.pbPendant1 = new System.Windows.Forms.PictureBox();
+            this.pbBelt = new System.Windows.Forms.PictureBox();
+            this.pbHat = new System.Windows.Forms.PictureBox();
+            this.pbFace = new System.Windows.Forms.PictureBox();
+            this.pbEye = new System.Windows.Forms.PictureBox();
+            this.pbTop = new System.Windows.Forms.PictureBox();
+            this.pbEar = new System.Windows.Forms.PictureBox();
+            this.pbBottom = new System.Windows.Forms.PictureBox();
+            this.pbShoulder = new System.Windows.Forms.PictureBox();
+            this.pbGloves = new System.Windows.Forms.PictureBox();
+            this.pbShoes = new System.Windows.Forms.PictureBox();
+            this.pbAndroid = new System.Windows.Forms.PictureBox();
+            this.pbHeart = new System.Windows.Forms.PictureBox();
+            this.pbSubWeapon = new System.Windows.Forms.PictureBox();
+            this.pbMedal = new System.Windows.Forms.PictureBox();
+            this.pbBadge = new System.Windows.Forms.PictureBox();
+            this.pbEmblem = new System.Windows.Forms.PictureBox();
+            this.pbMirHat = new System.Windows.Forms.PictureBox();
+            this.pbMirPendant = new System.Windows.Forms.PictureBox();
+            this.pbMirWing = new System.Windows.Forms.PictureBox();
+            this.pbMirTail = new System.Windows.Forms.PictureBox();
+            this.pbMechTransistor = new System.Windows.Forms.PictureBox();
+            this.pbMechFrame = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pbVanishing = new System.Windows.Forms.PictureBox();
+            this.pbChuChu = new System.Windows.Forms.PictureBox();
+            this.pbLach = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.statsGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -89,9 +128,52 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panelMech.SuspendLayout();
+            this.panelArc.SuspendLayout();
+            this.panelTotem.SuspendLayout();
             this.panelEquip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCape)).BeginInit();
+            this.panelMir.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPocket)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPendant2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPendant1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBelt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFace)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEye)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBottom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbShoulder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGloves)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbShoes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAndroid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHeart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSubWeapon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMedal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBadge)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmblem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirHat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirPendant)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirWing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirTail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMechTransistor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMechFrame)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbVanishing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChuChu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLach)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -553,6 +635,12 @@
             // panelMech
             // 
             this.panelMech.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mech;
+            this.panelMech.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMech.Controls.Add(this.pictureBox17);
+            this.panelMech.Controls.Add(this.pictureBox16);
+            this.panelMech.Controls.Add(this.pictureBox15);
+            this.panelMech.Controls.Add(this.pbMechFrame);
+            this.panelMech.Controls.Add(this.pbMechTransistor);
             this.panelMech.Location = new System.Drawing.Point(924, 41);
             this.panelMech.Name = "panelMech";
             this.panelMech.Size = new System.Drawing.Size(214, 256);
@@ -561,6 +649,10 @@
             // panelArc
             // 
             this.panelArc.BackgroundImage = global::MapleEquips.Properties.Resources.Arc;
+            this.panelArc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelArc.Controls.Add(this.pbLach);
+            this.panelArc.Controls.Add(this.pbChuChu);
+            this.panelArc.Controls.Add(this.pbVanishing);
             this.panelArc.Location = new System.Drawing.Point(284, 41);
             this.panelArc.Name = "panelArc";
             this.panelArc.Size = new System.Drawing.Size(171, 205);
@@ -569,6 +661,10 @@
             // panelTotem
             // 
             this.panelTotem.BackgroundImage = global::MapleEquips.Properties.Resources.Totem;
+            this.panelTotem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelTotem.Controls.Add(this.pictureBox20);
+            this.panelTotem.Controls.Add(this.pictureBox19);
+            this.panelTotem.Controls.Add(this.pictureBox18);
             this.panelTotem.Location = new System.Drawing.Point(12, 41);
             this.panelTotem.Name = "panelTotem";
             this.panelTotem.Size = new System.Drawing.Size(46, 127);
@@ -577,42 +673,465 @@
             // panelEquip
             // 
             this.panelEquip.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Inventory;
-            this.panelEquip.Controls.Add(this.pictureBox10);
-            this.panelEquip.Controls.Add(this.pictureBox9);
+            this.panelEquip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelEquip.Controls.Add(this.pbEmblem);
+            this.panelEquip.Controls.Add(this.pbBadge);
+            this.panelEquip.Controls.Add(this.pbMedal);
+            this.panelEquip.Controls.Add(this.pbSubWeapon);
+            this.panelEquip.Controls.Add(this.pbHeart);
+            this.panelEquip.Controls.Add(this.pbAndroid);
+            this.panelEquip.Controls.Add(this.pbShoes);
+            this.panelEquip.Controls.Add(this.pbGloves);
+            this.panelEquip.Controls.Add(this.pbShoulder);
+            this.panelEquip.Controls.Add(this.pbBottom);
+            this.panelEquip.Controls.Add(this.pbEar);
+            this.panelEquip.Controls.Add(this.pbTop);
+            this.panelEquip.Controls.Add(this.pbEye);
+            this.panelEquip.Controls.Add(this.pbFace);
+            this.panelEquip.Controls.Add(this.pbHat);
+            this.panelEquip.Controls.Add(this.pbBelt);
+            this.panelEquip.Controls.Add(this.pbPendant1);
+            this.panelEquip.Controls.Add(this.pbPendant2);
+            this.panelEquip.Controls.Add(this.pbBook);
+            this.panelEquip.Controls.Add(this.pbPocket);
+            this.panelEquip.Controls.Add(this.pbRing1);
+            this.panelEquip.Controls.Add(this.pbRing2);
+            this.panelEquip.Controls.Add(this.pbRing3);
+            this.panelEquip.Controls.Add(this.pbRing4);
+            this.panelEquip.Controls.Add(this.pbWeapon);
+            this.panelEquip.Controls.Add(this.pbCape);
             this.panelEquip.Location = new System.Drawing.Point(64, 41);
             this.panelEquip.Name = "panelEquip";
             this.panelEquip.Size = new System.Drawing.Size(214, 255);
             this.panelEquip.TabIndex = 4;
             // 
-            // pictureBox10
+            // pbWeapon
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Image = global::MapleEquips.Properties.Resources.WepTest;
-            this.pictureBox10.Location = new System.Drawing.Point(48, 129);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(36, 36);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 48;
-            this.pictureBox10.TabStop = false;
+            this.pbWeapon.BackColor = System.Drawing.Color.Transparent;
+            this.pbWeapon.Location = new System.Drawing.Point(48, 130);
+            this.pbWeapon.Name = "pbWeapon";
+            this.pbWeapon.Size = new System.Drawing.Size(36, 36);
+            this.pbWeapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbWeapon.TabIndex = 48;
+            this.pbWeapon.TabStop = false;
             // 
-            // pictureBox9
+            // pbCape
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = global::MapleEquips.Properties.Resources.Craftsman_Cube;
-            this.pictureBox9.Location = new System.Drawing.Point(170, 170);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(36, 36);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 47;
-            this.pictureBox9.TabStop = false;
+            this.pbCape.BackColor = System.Drawing.Color.Transparent;
+            this.pbCape.Location = new System.Drawing.Point(171, 171);
+            this.pbCape.Name = "pbCape";
+            this.pbCape.Size = new System.Drawing.Size(36, 36);
+            this.pbCape.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCape.TabIndex = 47;
+            this.pbCape.TabStop = false;
             // 
             // panelMir
             // 
             this.panelMir.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mir;
+            this.panelMir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMir.Controls.Add(this.pbMirTail);
+            this.panelMir.Controls.Add(this.pbMirWing);
+            this.panelMir.Controls.Add(this.pbMirPendant);
+            this.panelMir.Controls.Add(this.pbMirHat);
             this.panelMir.Location = new System.Drawing.Point(704, 41);
             this.panelMir.Name = "panelMir";
             this.panelMir.Size = new System.Drawing.Size(214, 256);
             this.panelMir.TabIndex = 0;
+            // 
+            // pbRing4
+            // 
+            this.pbRing4.BackColor = System.Drawing.Color.Transparent;
+            this.pbRing4.Location = new System.Drawing.Point(7, 7);
+            this.pbRing4.Name = "pbRing4";
+            this.pbRing4.Size = new System.Drawing.Size(36, 36);
+            this.pbRing4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbRing4.TabIndex = 49;
+            this.pbRing4.TabStop = false;
+            // 
+            // pbRing3
+            // 
+            this.pbRing3.BackColor = System.Drawing.Color.Transparent;
+            this.pbRing3.Location = new System.Drawing.Point(7, 48);
+            this.pbRing3.Name = "pbRing3";
+            this.pbRing3.Size = new System.Drawing.Size(36, 36);
+            this.pbRing3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbRing3.TabIndex = 50;
+            this.pbRing3.TabStop = false;
+            // 
+            // pbRing2
+            // 
+            this.pbRing2.BackColor = System.Drawing.Color.Transparent;
+            this.pbRing2.Location = new System.Drawing.Point(7, 89);
+            this.pbRing2.Name = "pbRing2";
+            this.pbRing2.Size = new System.Drawing.Size(36, 36);
+            this.pbRing2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbRing2.TabIndex = 51;
+            this.pbRing2.TabStop = false;
+            // 
+            // pbRing1
+            // 
+            this.pbRing1.BackColor = System.Drawing.Color.Transparent;
+            this.pbRing1.Location = new System.Drawing.Point(7, 130);
+            this.pbRing1.Name = "pbRing1";
+            this.pbRing1.Size = new System.Drawing.Size(36, 36);
+            this.pbRing1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbRing1.TabIndex = 52;
+            this.pbRing1.TabStop = false;
+            // 
+            // pbPocket
+            // 
+            this.pbPocket.BackColor = System.Drawing.Color.Transparent;
+            this.pbPocket.Location = new System.Drawing.Point(7, 171);
+            this.pbPocket.Name = "pbPocket";
+            this.pbPocket.Size = new System.Drawing.Size(36, 36);
+            this.pbPocket.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPocket.TabIndex = 53;
+            this.pbPocket.TabStop = false;
+            // 
+            // pbBook
+            // 
+            this.pbBook.BackColor = System.Drawing.Color.Transparent;
+            this.pbBook.Location = new System.Drawing.Point(7, 212);
+            this.pbBook.Name = "pbBook";
+            this.pbBook.Size = new System.Drawing.Size(36, 36);
+            this.pbBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbBook.TabIndex = 54;
+            this.pbBook.TabStop = false;
+            // 
+            // pbPendant2
+            // 
+            this.pbPendant2.BackColor = System.Drawing.Color.Transparent;
+            this.pbPendant2.Location = new System.Drawing.Point(48, 48);
+            this.pbPendant2.Name = "pbPendant2";
+            this.pbPendant2.Size = new System.Drawing.Size(36, 36);
+            this.pbPendant2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPendant2.TabIndex = 55;
+            this.pbPendant2.TabStop = false;
+            // 
+            // pbPendant1
+            // 
+            this.pbPendant1.BackColor = System.Drawing.Color.Transparent;
+            this.pbPendant1.Location = new System.Drawing.Point(48, 89);
+            this.pbPendant1.Name = "pbPendant1";
+            this.pbPendant1.Size = new System.Drawing.Size(36, 36);
+            this.pbPendant1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPendant1.TabIndex = 56;
+            this.pbPendant1.TabStop = false;
+            // 
+            // pbBelt
+            // 
+            this.pbBelt.BackColor = System.Drawing.Color.Transparent;
+            this.pbBelt.Location = new System.Drawing.Point(48, 171);
+            this.pbBelt.Name = "pbBelt";
+            this.pbBelt.Size = new System.Drawing.Size(36, 36);
+            this.pbBelt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbBelt.TabIndex = 57;
+            this.pbBelt.TabStop = false;
+            // 
+            // pbHat
+            // 
+            this.pbHat.BackColor = System.Drawing.Color.Transparent;
+            this.pbHat.Location = new System.Drawing.Point(89, 7);
+            this.pbHat.Name = "pbHat";
+            this.pbHat.Size = new System.Drawing.Size(36, 36);
+            this.pbHat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbHat.TabIndex = 58;
+            this.pbHat.TabStop = false;
+            // 
+            // pbFace
+            // 
+            this.pbFace.BackColor = System.Drawing.Color.Transparent;
+            this.pbFace.Location = new System.Drawing.Point(89, 48);
+            this.pbFace.Name = "pbFace";
+            this.pbFace.Size = new System.Drawing.Size(36, 36);
+            this.pbFace.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFace.TabIndex = 59;
+            this.pbFace.TabStop = false;
+            // 
+            // pbEye
+            // 
+            this.pbEye.BackColor = System.Drawing.Color.Transparent;
+            this.pbEye.Location = new System.Drawing.Point(89, 89);
+            this.pbEye.Name = "pbEye";
+            this.pbEye.Size = new System.Drawing.Size(36, 36);
+            this.pbEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEye.TabIndex = 60;
+            this.pbEye.TabStop = false;
+            // 
+            // pbTop
+            // 
+            this.pbTop.BackColor = System.Drawing.Color.Transparent;
+            this.pbTop.Location = new System.Drawing.Point(89, 130);
+            this.pbTop.Name = "pbTop";
+            this.pbTop.Size = new System.Drawing.Size(36, 36);
+            this.pbTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbTop.TabIndex = 61;
+            this.pbTop.TabStop = false;
+            // 
+            // pbEar
+            // 
+            this.pbEar.BackColor = System.Drawing.Color.Transparent;
+            this.pbEar.Location = new System.Drawing.Point(130, 89);
+            this.pbEar.Name = "pbEar";
+            this.pbEar.Size = new System.Drawing.Size(36, 36);
+            this.pbEar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEar.TabIndex = 62;
+            this.pbEar.TabStop = false;
+            // 
+            // pbBottom
+            // 
+            this.pbBottom.BackColor = System.Drawing.Color.Transparent;
+            this.pbBottom.Location = new System.Drawing.Point(89, 171);
+            this.pbBottom.Name = "pbBottom";
+            this.pbBottom.Size = new System.Drawing.Size(36, 36);
+            this.pbBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbBottom.TabIndex = 63;
+            this.pbBottom.TabStop = false;
+            // 
+            // pbShoulder
+            // 
+            this.pbShoulder.BackColor = System.Drawing.Color.Transparent;
+            this.pbShoulder.Location = new System.Drawing.Point(130, 130);
+            this.pbShoulder.Name = "pbShoulder";
+            this.pbShoulder.Size = new System.Drawing.Size(36, 36);
+            this.pbShoulder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbShoulder.TabIndex = 64;
+            this.pbShoulder.TabStop = false;
+            // 
+            // pbGloves
+            // 
+            this.pbGloves.BackColor = System.Drawing.Color.Transparent;
+            this.pbGloves.Location = new System.Drawing.Point(130, 171);
+            this.pbGloves.Name = "pbGloves";
+            this.pbGloves.Size = new System.Drawing.Size(36, 36);
+            this.pbGloves.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbGloves.TabIndex = 65;
+            this.pbGloves.TabStop = false;
+            // 
+            // pbShoes
+            // 
+            this.pbShoes.BackColor = System.Drawing.Color.Transparent;
+            this.pbShoes.Location = new System.Drawing.Point(89, 212);
+            this.pbShoes.Name = "pbShoes";
+            this.pbShoes.Size = new System.Drawing.Size(36, 36);
+            this.pbShoes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbShoes.TabIndex = 66;
+            this.pbShoes.TabStop = false;
+            // 
+            // pbAndroid
+            // 
+            this.pbAndroid.BackColor = System.Drawing.Color.Transparent;
+            this.pbAndroid.Location = new System.Drawing.Point(130, 212);
+            this.pbAndroid.Name = "pbAndroid";
+            this.pbAndroid.Size = new System.Drawing.Size(36, 36);
+            this.pbAndroid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbAndroid.TabIndex = 67;
+            this.pbAndroid.TabStop = false;
+            // 
+            // pbHeart
+            // 
+            this.pbHeart.BackColor = System.Drawing.Color.Transparent;
+            this.pbHeart.Location = new System.Drawing.Point(171, 212);
+            this.pbHeart.Name = "pbHeart";
+            this.pbHeart.Size = new System.Drawing.Size(36, 36);
+            this.pbHeart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbHeart.TabIndex = 68;
+            this.pbHeart.TabStop = false;
+            // 
+            // pbSubWeapon
+            // 
+            this.pbSubWeapon.BackColor = System.Drawing.Color.Transparent;
+            this.pbSubWeapon.Location = new System.Drawing.Point(171, 130);
+            this.pbSubWeapon.Name = "pbSubWeapon";
+            this.pbSubWeapon.Size = new System.Drawing.Size(36, 36);
+            this.pbSubWeapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbSubWeapon.TabIndex = 69;
+            this.pbSubWeapon.TabStop = false;
+            // 
+            // pbMedal
+            // 
+            this.pbMedal.BackColor = System.Drawing.Color.Transparent;
+            this.pbMedal.Location = new System.Drawing.Point(171, 89);
+            this.pbMedal.Name = "pbMedal";
+            this.pbMedal.Size = new System.Drawing.Size(36, 36);
+            this.pbMedal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMedal.TabIndex = 70;
+            this.pbMedal.TabStop = false;
+            // 
+            // pbBadge
+            // 
+            this.pbBadge.BackColor = System.Drawing.Color.Transparent;
+            this.pbBadge.Location = new System.Drawing.Point(171, 48);
+            this.pbBadge.Name = "pbBadge";
+            this.pbBadge.Size = new System.Drawing.Size(36, 36);
+            this.pbBadge.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbBadge.TabIndex = 71;
+            this.pbBadge.TabStop = false;
+            // 
+            // pbEmblem
+            // 
+            this.pbEmblem.BackColor = System.Drawing.Color.Transparent;
+            this.pbEmblem.Location = new System.Drawing.Point(171, 7);
+            this.pbEmblem.Name = "pbEmblem";
+            this.pbEmblem.Size = new System.Drawing.Size(36, 36);
+            this.pbEmblem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEmblem.TabIndex = 72;
+            this.pbEmblem.TabStop = false;
+            // 
+            // pbMirHat
+            // 
+            this.pbMirHat.BackColor = System.Drawing.Color.Transparent;
+            this.pbMirHat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirHat.Location = new System.Drawing.Point(15, 72);
+            this.pbMirHat.Name = "pbMirHat";
+            this.pbMirHat.Size = new System.Drawing.Size(36, 36);
+            this.pbMirHat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMirHat.TabIndex = 73;
+            this.pbMirHat.TabStop = false;
+            // 
+            // pbMirPendant
+            // 
+            this.pbMirPendant.BackColor = System.Drawing.Color.Transparent;
+            this.pbMirPendant.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirPendant.Location = new System.Drawing.Point(53, 131);
+            this.pbMirPendant.Name = "pbMirPendant";
+            this.pbMirPendant.Size = new System.Drawing.Size(36, 36);
+            this.pbMirPendant.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMirPendant.TabIndex = 74;
+            this.pbMirPendant.TabStop = false;
+            // 
+            // pbMirWing
+            // 
+            this.pbMirWing.BackColor = System.Drawing.Color.Transparent;
+            this.pbMirWing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirWing.Location = new System.Drawing.Point(112, 72);
+            this.pbMirWing.Name = "pbMirWing";
+            this.pbMirWing.Size = new System.Drawing.Size(36, 36);
+            this.pbMirWing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMirWing.TabIndex = 75;
+            this.pbMirWing.TabStop = false;
+            // 
+            // pbMirTail
+            // 
+            this.pbMirTail.BackColor = System.Drawing.Color.Transparent;
+            this.pbMirTail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirTail.Location = new System.Drawing.Point(162, 107);
+            this.pbMirTail.Name = "pbMirTail";
+            this.pbMirTail.Size = new System.Drawing.Size(36, 36);
+            this.pbMirTail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMirTail.TabIndex = 76;
+            this.pbMirTail.TabStop = false;
+            // 
+            // pbMechTransistor
+            // 
+            this.pbMechTransistor.BackColor = System.Drawing.Color.Transparent;
+            this.pbMechTransistor.Location = new System.Drawing.Point(104, 54);
+            this.pbMechTransistor.Name = "pbMechTransistor";
+            this.pbMechTransistor.Size = new System.Drawing.Size(36, 36);
+            this.pbMechTransistor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMechTransistor.TabIndex = 77;
+            this.pbMechTransistor.TabStop = false;
+            // 
+            // pbMechFrame
+            // 
+            this.pbMechFrame.BackColor = System.Drawing.Color.Transparent;
+            this.pbMechFrame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMechFrame.Location = new System.Drawing.Point(17, 80);
+            this.pbMechFrame.Name = "pbMechFrame";
+            this.pbMechFrame.Size = new System.Drawing.Size(36, 36);
+            this.pbMechFrame.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMechFrame.TabIndex = 78;
+            this.pbMechFrame.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox15.Location = new System.Drawing.Point(81, 132);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 79;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Location = new System.Drawing.Point(160, 156);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 80;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox17.Location = new System.Drawing.Point(92, 184);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 81;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox18.Location = new System.Drawing.Point(5, 6);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 82;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox19.Location = new System.Drawing.Point(5, 47);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 83;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox20.Location = new System.Drawing.Point(5, 87);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(36, 36);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 84;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pbVanishing
+            // 
+            this.pbVanishing.BackColor = System.Drawing.Color.Transparent;
+            this.pbVanishing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbVanishing.Location = new System.Drawing.Point(18, 119);
+            this.pbVanishing.Name = "pbVanishing";
+            this.pbVanishing.Size = new System.Drawing.Size(34, 33);
+            this.pbVanishing.TabIndex = 0;
+            this.pbVanishing.TabStop = false;
+            // 
+            // pbChuChu
+            // 
+            this.pbChuChu.BackColor = System.Drawing.Color.Transparent;
+            this.pbChuChu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbChuChu.Location = new System.Drawing.Point(69, 119);
+            this.pbChuChu.Name = "pbChuChu";
+            this.pbChuChu.Size = new System.Drawing.Size(34, 33);
+            this.pbChuChu.TabIndex = 1;
+            this.pbChuChu.TabStop = false;
+            // 
+            // pbLach
+            // 
+            this.pbLach.BackColor = System.Drawing.Color.Transparent;
+            this.pbLach.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbLach.Location = new System.Drawing.Point(120, 119);
+            this.pbLach.Name = "pbLach";
+            this.pbLach.Size = new System.Drawing.Size(34, 33);
+            this.pbLach.TabIndex = 2;
+            this.pbLach.TabStop = false;
             // 
             // Form1
             // 
@@ -643,9 +1162,52 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panelMech.ResumeLayout(false);
+            this.panelArc.ResumeLayout(false);
+            this.panelTotem.ResumeLayout(false);
             this.panelEquip.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCape)).EndInit();
+            this.panelMir.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRing1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPocket)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPendant2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPendant1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBelt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFace)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEye)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBottom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbShoulder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGloves)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbShoes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAndroid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHeart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSubWeapon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMedal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBadge)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmblem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirHat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirPendant)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirWing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMirTail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMechTransistor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMechFrame)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbVanishing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChuChu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLach)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -702,8 +1264,47 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.GroupBox statsGroupBox;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox pbCape;
+        private System.Windows.Forms.PictureBox pbWeapon;
+        private System.Windows.Forms.PictureBox pbEmblem;
+        private System.Windows.Forms.PictureBox pbBadge;
+        private System.Windows.Forms.PictureBox pbMedal;
+        private System.Windows.Forms.PictureBox pbSubWeapon;
+        private System.Windows.Forms.PictureBox pbHeart;
+        private System.Windows.Forms.PictureBox pbAndroid;
+        private System.Windows.Forms.PictureBox pbShoes;
+        private System.Windows.Forms.PictureBox pbGloves;
+        private System.Windows.Forms.PictureBox pbShoulder;
+        private System.Windows.Forms.PictureBox pbBottom;
+        private System.Windows.Forms.PictureBox pbEar;
+        private System.Windows.Forms.PictureBox pbTop;
+        private System.Windows.Forms.PictureBox pbEye;
+        private System.Windows.Forms.PictureBox pbFace;
+        private System.Windows.Forms.PictureBox pbHat;
+        private System.Windows.Forms.PictureBox pbBelt;
+        private System.Windows.Forms.PictureBox pbPendant1;
+        private System.Windows.Forms.PictureBox pbPendant2;
+        private System.Windows.Forms.PictureBox pbBook;
+        private System.Windows.Forms.PictureBox pbPocket;
+        private System.Windows.Forms.PictureBox pbRing1;
+        private System.Windows.Forms.PictureBox pbRing2;
+        private System.Windows.Forms.PictureBox pbRing3;
+        private System.Windows.Forms.PictureBox pbRing4;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pbMechFrame;
+        private System.Windows.Forms.PictureBox pbMechTransistor;
+        private System.Windows.Forms.PictureBox pbVanishing;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pbMirTail;
+        private System.Windows.Forms.PictureBox pbMirWing;
+        private System.Windows.Forms.PictureBox pbMirPendant;
+        private System.Windows.Forms.PictureBox pbMirHat;
+        private System.Windows.Forms.PictureBox pbLach;
+        private System.Windows.Forms.PictureBox pbChuChu;
     }
 }
 
