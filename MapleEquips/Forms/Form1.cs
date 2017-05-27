@@ -15,7 +15,7 @@ namespace MapleEquips {
         public Form1() {
             InitializeComponent();
             //Width = 1182;
-            pictureBox20.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
+            pbTotem3.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
             pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
             pbMirWing.Image = MapleEquips.Properties.Resources.ChuChu;
             pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
