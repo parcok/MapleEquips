@@ -58,6 +58,10 @@
     <Compile Include="Forms\NewCharacter.Designer.cs">
       <DependentUpon>NewCharacter.cs</DependentUpon>
     </Compile>
+    <Compile Include="Objects\EnhancedPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Objects\Item.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Form1.resx">

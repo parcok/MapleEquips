@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newCharacterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,66 +66,65 @@
             this.label16 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.statsGroupBox = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureBox1 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureBox7 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureBox4 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureBox2 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureBox5 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureBox3 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureBox6 = new MapleEquips.Objects.EnhancedPictureBox();
             this.panelHaku = new System.Windows.Forms.Panel();
-            this.pbHakuFan = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pbHakuFan = new MapleEquips.Objects.EnhancedPictureBox();
             this.panelMech = new System.Windows.Forms.Panel();
-            this.pbMechLeg = new System.Windows.Forms.PictureBox();
-            this.pbMechArm = new System.Windows.Forms.PictureBox();
-            this.pbMechEngine = new System.Windows.Forms.PictureBox();
-            this.pbMechFrame = new System.Windows.Forms.PictureBox();
-            this.pbMechTransistor = new System.Windows.Forms.PictureBox();
+            this.pbMechLeg = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMechArm = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMechEngine = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMechFrame = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMechTransistor = new MapleEquips.Objects.EnhancedPictureBox();
             this.panelArc = new System.Windows.Forms.Panel();
-            this.pbLach = new System.Windows.Forms.PictureBox();
-            this.pbChuChu = new System.Windows.Forms.PictureBox();
-            this.pbVanishing = new System.Windows.Forms.PictureBox();
+            this.pbLach = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbChuChu = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbVanishing = new MapleEquips.Objects.EnhancedPictureBox();
             this.panelTotem = new System.Windows.Forms.Panel();
-            this.pbTotem3 = new System.Windows.Forms.PictureBox();
-            this.pbTotem2 = new System.Windows.Forms.PictureBox();
-            this.pbTotem1 = new System.Windows.Forms.PictureBox();
+            this.pbTotem3 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbTotem2 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbTotem1 = new MapleEquips.Objects.EnhancedPictureBox();
             this.panelEquip = new System.Windows.Forms.Panel();
-            this.pbEmblem = new System.Windows.Forms.PictureBox();
-            this.pbBadge = new System.Windows.Forms.PictureBox();
-            this.pbMedal = new System.Windows.Forms.PictureBox();
-            this.pbSubWeapon = new System.Windows.Forms.PictureBox();
-            this.pbHeart = new System.Windows.Forms.PictureBox();
-            this.pbAndroid = new System.Windows.Forms.PictureBox();
-            this.pbShoes = new System.Windows.Forms.PictureBox();
-            this.pbGloves = new System.Windows.Forms.PictureBox();
-            this.pbShoulder = new System.Windows.Forms.PictureBox();
-            this.pbBottom = new System.Windows.Forms.PictureBox();
-            this.pbEar = new System.Windows.Forms.PictureBox();
-            this.pbTop = new System.Windows.Forms.PictureBox();
-            this.pbEye = new System.Windows.Forms.PictureBox();
-            this.pbFace = new System.Windows.Forms.PictureBox();
-            this.pbHat = new System.Windows.Forms.PictureBox();
-            this.pbBelt = new System.Windows.Forms.PictureBox();
-            this.pbPendant1 = new System.Windows.Forms.PictureBox();
-            this.pbPendant2 = new System.Windows.Forms.PictureBox();
-            this.pbBook = new System.Windows.Forms.PictureBox();
-            this.pbPocket = new System.Windows.Forms.PictureBox();
-            this.pbRing1 = new System.Windows.Forms.PictureBox();
-            this.pbRing2 = new System.Windows.Forms.PictureBox();
-            this.pbRing3 = new System.Windows.Forms.PictureBox();
-            this.pbRing4 = new System.Windows.Forms.PictureBox();
-            this.pbWeapon = new System.Windows.Forms.PictureBox();
-            this.pbCape = new System.Windows.Forms.PictureBox();
+            this.pbEmblem = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbBadge = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMedal = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbSubWeapon = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbHeart = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbAndroid = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbShoes = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbGloves = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbShoulder = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbBottom = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbEar = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbTop = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbEye = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbFace = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbHat = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbBelt = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbPendant1 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbPendant2 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbBook = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbPocket = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbRing1 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbRing2 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbRing3 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbRing4 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbWeapon = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbCape = new MapleEquips.Objects.EnhancedPictureBox();
             this.panelMir = new System.Windows.Forms.Panel();
-            this.pbMirTail = new System.Windows.Forms.PictureBox();
-            this.pbMirWing = new System.Windows.Forms.PictureBox();
-            this.pbMirPendant = new System.Windows.Forms.PictureBox();
-            this.pbMirHat = new System.Windows.Forms.PictureBox();
+            this.pbMirTail = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMirWing = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMirPendant = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pbMirHat = new MapleEquips.Objects.EnhancedPictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.menuStrip1.SuspendLayout();
             this.statsGroupBox.SuspendLayout();
-            this.panelHaku.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -132,6 +133,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panelHaku.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).BeginInit();
             this.panelMech.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechLeg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechArm)).BeginInit();
@@ -556,27 +559,6 @@
             this.statsGroupBox.Text = "Stats";
             this.statsGroupBox.Enter += new System.EventHandler(this.statsGroupBox_Enter);
             // 
-            // panelHaku
-            // 
-            this.panelHaku.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Haku;
-            this.panelHaku.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelHaku.Controls.Add(this.pbHakuFan);
-            this.panelHaku.Location = new System.Drawing.Point(924, 310);
-            this.panelHaku.Name = "panelHaku";
-            this.panelHaku.Size = new System.Drawing.Size(214, 256);
-            this.panelHaku.TabIndex = 48;
-            // 
-            // pbHakuFan
-            // 
-            this.pbHakuFan.BackColor = System.Drawing.Color.Transparent;
-            this.pbHakuFan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbHakuFan.Location = new System.Drawing.Point(47, 130);
-            this.pbHakuFan.Name = "pbHakuFan";
-            this.pbHakuFan.Size = new System.Drawing.Size(36, 36);
-            this.pbHakuFan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbHakuFan.TabIndex = 74;
-            this.pbHakuFan.TabStop = false;
-            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::MapleEquips.Properties.Resources.Star_Force;
@@ -656,6 +638,27 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 28;
             this.pictureBox6.TabStop = false;
+            // 
+            // panelHaku
+            // 
+            this.panelHaku.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHaku.BackgroundImage")));
+            this.panelHaku.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelHaku.Controls.Add(this.pbHakuFan);
+            this.panelHaku.Location = new System.Drawing.Point(924, 310);
+            this.panelHaku.Name = "panelHaku";
+            this.panelHaku.Size = new System.Drawing.Size(214, 256);
+            this.panelHaku.TabIndex = 48;
+            // 
+            // pbHakuFan
+            // 
+            this.pbHakuFan.BackColor = System.Drawing.Color.Transparent;
+            this.pbHakuFan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbHakuFan.Location = new System.Drawing.Point(47, 130);
+            this.pbHakuFan.Name = "pbHakuFan";
+            this.pbHakuFan.Size = new System.Drawing.Size(36, 36);
+            this.pbHakuFan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbHakuFan.TabIndex = 74;
+            this.pbHakuFan.TabStop = false;
             // 
             // panelMech
             // 
@@ -1056,6 +1059,7 @@
             this.pbBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbBook.TabIndex = 54;
             this.pbBook.TabStop = false;
+            this.pbBook.MouseHover += new System.EventHandler(this.pbBook_MouseHover);
             // 
             // pbPocket
             // 
@@ -1213,8 +1217,6 @@
             this.menuStrip1.PerformLayout();
             this.statsGroupBox.ResumeLayout(false);
             this.statsGroupBox.PerformLayout();
-            this.panelHaku.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -1223,6 +1225,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panelHaku.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).EndInit();
             this.panelMech.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbMechLeg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechArm)).EndInit();
@@ -1290,84 +1294,85 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox1;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox3;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox4;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox5;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox6;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox7;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private MapleEquips.Objects.EnhancedPictureBox pictureBox8;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.GroupBox statsGroupBox;
-        private System.Windows.Forms.PictureBox pbCape;
-        private System.Windows.Forms.PictureBox pbWeapon;
-        private System.Windows.Forms.PictureBox pbEmblem;
-        private System.Windows.Forms.PictureBox pbBadge;
-        private System.Windows.Forms.PictureBox pbMedal;
-        private System.Windows.Forms.PictureBox pbSubWeapon;
-        private System.Windows.Forms.PictureBox pbHeart;
-        private System.Windows.Forms.PictureBox pbAndroid;
-        private System.Windows.Forms.PictureBox pbShoes;
-        private System.Windows.Forms.PictureBox pbGloves;
-        private System.Windows.Forms.PictureBox pbShoulder;
-        private System.Windows.Forms.PictureBox pbBottom;
-        private System.Windows.Forms.PictureBox pbEar;
-        private System.Windows.Forms.PictureBox pbTop;
-        private System.Windows.Forms.PictureBox pbEye;
-        private System.Windows.Forms.PictureBox pbFace;
-        private System.Windows.Forms.PictureBox pbHat;
-        private System.Windows.Forms.PictureBox pbBelt;
-        private System.Windows.Forms.PictureBox pbPendant1;
-        private System.Windows.Forms.PictureBox pbPendant2;
-        private System.Windows.Forms.PictureBox pbBook;
-        private System.Windows.Forms.PictureBox pbPocket;
-        private System.Windows.Forms.PictureBox pbRing1;
-        private System.Windows.Forms.PictureBox pbRing2;
-        private System.Windows.Forms.PictureBox pbRing3;
-        private System.Windows.Forms.PictureBox pbRing4;
-        private System.Windows.Forms.PictureBox pbMechLeg;
-        private System.Windows.Forms.PictureBox pbMechArm;
-        private System.Windows.Forms.PictureBox pbMechEngine;
-        private System.Windows.Forms.PictureBox pbMechFrame;
-        private System.Windows.Forms.PictureBox pbMechTransistor;
-        private System.Windows.Forms.PictureBox pbVanishing;
-        private System.Windows.Forms.PictureBox pbTotem3;
-        private System.Windows.Forms.PictureBox pbTotem2;
-        private System.Windows.Forms.PictureBox pbTotem1;
-        private System.Windows.Forms.PictureBox pbMirTail;
-        private System.Windows.Forms.PictureBox pbMirWing;
-        private System.Windows.Forms.PictureBox pbMirPendant;
-        private System.Windows.Forms.PictureBox pbMirHat;
-        private System.Windows.Forms.PictureBox pbLach;
-        private System.Windows.Forms.PictureBox pbChuChu;
+        private MapleEquips.Objects.EnhancedPictureBox pbCape;
+        private MapleEquips.Objects.EnhancedPictureBox pbWeapon;
+        private MapleEquips.Objects.EnhancedPictureBox pbEmblem;
+        private MapleEquips.Objects.EnhancedPictureBox pbBadge;
+        private MapleEquips.Objects.EnhancedPictureBox pbMedal;
+        private MapleEquips.Objects.EnhancedPictureBox pbSubWeapon;
+        private MapleEquips.Objects.EnhancedPictureBox pbHeart;
+        private MapleEquips.Objects.EnhancedPictureBox pbAndroid;
+        private MapleEquips.Objects.EnhancedPictureBox pbShoes;
+        private MapleEquips.Objects.EnhancedPictureBox pbGloves;
+        private MapleEquips.Objects.EnhancedPictureBox pbShoulder;
+        private MapleEquips.Objects.EnhancedPictureBox pbBottom;
+        private MapleEquips.Objects.EnhancedPictureBox pbEar;
+        private MapleEquips.Objects.EnhancedPictureBox pbTop;
+        private MapleEquips.Objects.EnhancedPictureBox pbEye;
+        private MapleEquips.Objects.EnhancedPictureBox pbFace;
+        private MapleEquips.Objects.EnhancedPictureBox pbHat;
+        private MapleEquips.Objects.EnhancedPictureBox pbBelt;
+        private MapleEquips.Objects.EnhancedPictureBox pbPendant1;
+        private MapleEquips.Objects.EnhancedPictureBox pbPendant2;
+        private MapleEquips.Objects.EnhancedPictureBox pbBook;
+        private MapleEquips.Objects.EnhancedPictureBox pbPocket;
+        private MapleEquips.Objects.EnhancedPictureBox pbRing1;
+        private MapleEquips.Objects.EnhancedPictureBox pbRing2;
+        private MapleEquips.Objects.EnhancedPictureBox pbRing3;
+        private MapleEquips.Objects.EnhancedPictureBox pbRing4;
+        private MapleEquips.Objects.EnhancedPictureBox pbMechLeg;
+        private MapleEquips.Objects.EnhancedPictureBox pbMechArm;
+        private MapleEquips.Objects.EnhancedPictureBox pbMechEngine;
+        private MapleEquips.Objects.EnhancedPictureBox pbMechFrame;
+        private MapleEquips.Objects.EnhancedPictureBox pbMechTransistor;
+        private MapleEquips.Objects.EnhancedPictureBox pbVanishing;
+        private MapleEquips.Objects.EnhancedPictureBox pbTotem3;
+        private MapleEquips.Objects.EnhancedPictureBox pbTotem2;
+        private MapleEquips.Objects.EnhancedPictureBox pbTotem1;
+        private MapleEquips.Objects.EnhancedPictureBox pbMirTail;
+        private MapleEquips.Objects.EnhancedPictureBox pbMirWing;
+        private MapleEquips.Objects.EnhancedPictureBox pbMirPendant;
+        private MapleEquips.Objects.EnhancedPictureBox pbMirHat;
+        private MapleEquips.Objects.EnhancedPictureBox pbLach;
+        private MapleEquips.Objects.EnhancedPictureBox pbChuChu;
         private System.Windows.Forms.Panel panelHaku;
-        private System.Windows.Forms.PictureBox pbHakuFan;
+        private MapleEquips.Objects.EnhancedPictureBox pbHakuFan;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

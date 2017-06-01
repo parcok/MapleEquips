@@ -7,14 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MapleEquips.Objects;
 
 namespace MapleEquips {
 
     public partial class Form1 : Form {
-
+        Item itemTest = new Item("Test Name", 500, 250, 300, 400);
         public Form1() {
             InitializeComponent();
             //Width = 1182;
+            pbBook.Item = itemTest;
             pbTotem3.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
             pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
             pbMirWing.Image = MapleEquips.Properties.Resources.ChuChu;
@@ -60,5 +62,10 @@ namespace MapleEquips {
             // move based on whether the class name is mir or mech
             // fk sky statsGroupBox.Location = new Point(50, 310);
         }
+
+        private void pbBook_MouseHover(object sender, EventArgs e) {
+            toolTip1.SetToolTip(pbBook, pbBook.Item.hoverStats());
+        }
+
     }
 }
