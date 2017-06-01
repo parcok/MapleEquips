@@ -562,6 +562,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::MapleEquips.Properties.Resources.Star_Force;
+            this.pictureBox8.Item = null;
             this.pictureBox8.Location = new System.Drawing.Point(328, 208);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(13, 13);
@@ -572,6 +573,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MapleEquips.Properties.Resources.Craftsman_Cube;
+            this.pictureBox1.Item = null;
             this.pictureBox1.Location = new System.Drawing.Point(12, 33);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(30, 30);
@@ -582,6 +584,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::MapleEquips.Properties.Resources.Star_Force;
+            this.pictureBox7.Item = null;
             this.pictureBox7.Location = new System.Drawing.Point(55, 208);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(13, 13);
@@ -592,6 +595,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::MapleEquips.Properties.Resources.Lach;
+            this.pictureBox4.Item = null;
             this.pictureBox4.Location = new System.Drawing.Point(282, 141);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(30, 30);
@@ -602,6 +606,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::MapleEquips.Properties.Resources.Red_Cube;
+            this.pictureBox2.Item = null;
             this.pictureBox2.Location = new System.Drawing.Point(12, 87);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 30);
@@ -612,6 +617,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::MapleEquips.Properties.Resources.ChuChu;
+            this.pictureBox5.Item = null;
             this.pictureBox5.Location = new System.Drawing.Point(282, 87);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(30, 30);
@@ -622,6 +628,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::MapleEquips.Properties.Resources.Black_Cube;
+            this.pictureBox3.Item = null;
             this.pictureBox3.Location = new System.Drawing.Point(12, 141);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 30);
@@ -632,6 +639,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::MapleEquips.Properties.Resources.Vanishing;
+            this.pictureBox6.Item = null;
             this.pictureBox6.Location = new System.Drawing.Point(282, 33);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(30, 30);
@@ -653,6 +661,7 @@
             // 
             this.pbHakuFan.BackColor = System.Drawing.Color.Transparent;
             this.pbHakuFan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbHakuFan.Item = null;
             this.pbHakuFan.Location = new System.Drawing.Point(47, 130);
             this.pbHakuFan.Name = "pbHakuFan";
             this.pbHakuFan.Size = new System.Drawing.Size(36, 36);
@@ -678,6 +687,7 @@
             // 
             this.pbMechLeg.BackColor = System.Drawing.Color.Transparent;
             this.pbMechLeg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMechLeg.Item = null;
             this.pbMechLeg.Location = new System.Drawing.Point(92, 184);
             this.pbMechLeg.Name = "pbMechLeg";
             this.pbMechLeg.Size = new System.Drawing.Size(36, 36);
@@ -689,6 +699,7 @@
             // 
             this.pbMechArm.BackColor = System.Drawing.Color.Transparent;
             this.pbMechArm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMechArm.Item = null;
             this.pbMechArm.Location = new System.Drawing.Point(160, 156);
             this.pbMechArm.Name = "pbMechArm";
             this.pbMechArm.Size = new System.Drawing.Size(36, 36);
@@ -700,6 +711,7 @@
             // 
             this.pbMechEngine.BackColor = System.Drawing.Color.Transparent;
             this.pbMechEngine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMechEngine.Item = null;
             this.pbMechEngine.Location = new System.Drawing.Point(81, 132);
             this.pbMechEngine.Name = "pbMechEngine";
             this.pbMechEngine.Size = new System.Drawing.Size(36, 36);
@@ -711,6 +723,7 @@
             // 
             this.pbMechFrame.BackColor = System.Drawing.Color.Transparent;
             this.pbMechFrame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMechFrame.Item = null;
             this.pbMechFrame.Location = new System.Drawing.Point(17, 80);
             this.pbMechFrame.Name = "pbMechFrame";
             this.pbMechFrame.Size = new System.Drawing.Size(36, 36);
@@ -722,6 +735,7 @@
             // 
             this.pbMechTransistor.BackColor = System.Drawing.Color.Transparent;
             this.pbMechTransistor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMechTransistor.Item = null;
             this.pbMechTransistor.Location = new System.Drawing.Point(104, 54);
             this.pbMechTransistor.Name = "pbMechTransistor";
             this.pbMechTransistor.Size = new System.Drawing.Size(36, 36);
@@ -745,6 +759,7 @@
             // 
             this.pbLach.BackColor = System.Drawing.Color.Transparent;
             this.pbLach.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbLach.Item = null;
             this.pbLach.Location = new System.Drawing.Point(120, 119);
             this.pbLach.Name = "pbLach";
             this.pbLach.Size = new System.Drawing.Size(34, 33);
@@ -755,6 +770,7 @@
             // 
             this.pbChuChu.BackColor = System.Drawing.Color.Transparent;
             this.pbChuChu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbChuChu.Item = null;
             this.pbChuChu.Location = new System.Drawing.Point(69, 119);
             this.pbChuChu.Name = "pbChuChu";
             this.pbChuChu.Size = new System.Drawing.Size(34, 33);
@@ -765,6 +781,7 @@
             // 
             this.pbVanishing.BackColor = System.Drawing.Color.Transparent;
             this.pbVanishing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbVanishing.Item = null;
             this.pbVanishing.Location = new System.Drawing.Point(18, 119);
             this.pbVanishing.Name = "pbVanishing";
             this.pbVanishing.Size = new System.Drawing.Size(34, 33);
@@ -787,6 +804,7 @@
             // 
             this.pbTotem3.BackColor = System.Drawing.Color.Transparent;
             this.pbTotem3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbTotem3.Item = null;
             this.pbTotem3.Location = new System.Drawing.Point(5, 87);
             this.pbTotem3.Name = "pbTotem3";
             this.pbTotem3.Size = new System.Drawing.Size(36, 36);
@@ -798,6 +816,7 @@
             // 
             this.pbTotem2.BackColor = System.Drawing.Color.Transparent;
             this.pbTotem2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbTotem2.Item = null;
             this.pbTotem2.Location = new System.Drawing.Point(5, 47);
             this.pbTotem2.Name = "pbTotem2";
             this.pbTotem2.Size = new System.Drawing.Size(36, 36);
@@ -809,6 +828,7 @@
             // 
             this.pbTotem1.BackColor = System.Drawing.Color.Transparent;
             this.pbTotem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbTotem1.Item = null;
             this.pbTotem1.Location = new System.Drawing.Point(5, 6);
             this.pbTotem1.Name = "pbTotem1";
             this.pbTotem1.Size = new System.Drawing.Size(36, 36);
@@ -855,6 +875,7 @@
             // 
             this.pbEmblem.BackColor = System.Drawing.Color.Transparent;
             this.pbEmblem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbEmblem.Item = null;
             this.pbEmblem.Location = new System.Drawing.Point(171, 7);
             this.pbEmblem.Name = "pbEmblem";
             this.pbEmblem.Size = new System.Drawing.Size(36, 36);
@@ -866,6 +887,7 @@
             // 
             this.pbBadge.BackColor = System.Drawing.Color.Transparent;
             this.pbBadge.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBadge.Item = null;
             this.pbBadge.Location = new System.Drawing.Point(171, 48);
             this.pbBadge.Name = "pbBadge";
             this.pbBadge.Size = new System.Drawing.Size(36, 36);
@@ -877,6 +899,7 @@
             // 
             this.pbMedal.BackColor = System.Drawing.Color.Transparent;
             this.pbMedal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMedal.Item = null;
             this.pbMedal.Location = new System.Drawing.Point(171, 89);
             this.pbMedal.Name = "pbMedal";
             this.pbMedal.Size = new System.Drawing.Size(36, 36);
@@ -888,6 +911,7 @@
             // 
             this.pbSubWeapon.BackColor = System.Drawing.Color.Transparent;
             this.pbSubWeapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbSubWeapon.Item = null;
             this.pbSubWeapon.Location = new System.Drawing.Point(171, 130);
             this.pbSubWeapon.Name = "pbSubWeapon";
             this.pbSubWeapon.Size = new System.Drawing.Size(36, 36);
@@ -899,6 +923,7 @@
             // 
             this.pbHeart.BackColor = System.Drawing.Color.Transparent;
             this.pbHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbHeart.Item = null;
             this.pbHeart.Location = new System.Drawing.Point(171, 212);
             this.pbHeart.Name = "pbHeart";
             this.pbHeart.Size = new System.Drawing.Size(36, 36);
@@ -910,6 +935,7 @@
             // 
             this.pbAndroid.BackColor = System.Drawing.Color.Transparent;
             this.pbAndroid.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbAndroid.Item = null;
             this.pbAndroid.Location = new System.Drawing.Point(130, 212);
             this.pbAndroid.Name = "pbAndroid";
             this.pbAndroid.Size = new System.Drawing.Size(36, 36);
@@ -921,6 +947,7 @@
             // 
             this.pbShoes.BackColor = System.Drawing.Color.Transparent;
             this.pbShoes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbShoes.Item = null;
             this.pbShoes.Location = new System.Drawing.Point(89, 212);
             this.pbShoes.Name = "pbShoes";
             this.pbShoes.Size = new System.Drawing.Size(36, 36);
@@ -932,6 +959,7 @@
             // 
             this.pbGloves.BackColor = System.Drawing.Color.Transparent;
             this.pbGloves.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbGloves.Item = null;
             this.pbGloves.Location = new System.Drawing.Point(130, 171);
             this.pbGloves.Name = "pbGloves";
             this.pbGloves.Size = new System.Drawing.Size(36, 36);
@@ -943,6 +971,7 @@
             // 
             this.pbShoulder.BackColor = System.Drawing.Color.Transparent;
             this.pbShoulder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbShoulder.Item = null;
             this.pbShoulder.Location = new System.Drawing.Point(130, 130);
             this.pbShoulder.Name = "pbShoulder";
             this.pbShoulder.Size = new System.Drawing.Size(36, 36);
@@ -954,6 +983,7 @@
             // 
             this.pbBottom.BackColor = System.Drawing.Color.Transparent;
             this.pbBottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBottom.Item = null;
             this.pbBottom.Location = new System.Drawing.Point(89, 171);
             this.pbBottom.Name = "pbBottom";
             this.pbBottom.Size = new System.Drawing.Size(36, 36);
@@ -965,6 +995,7 @@
             // 
             this.pbEar.BackColor = System.Drawing.Color.Transparent;
             this.pbEar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbEar.Item = null;
             this.pbEar.Location = new System.Drawing.Point(130, 89);
             this.pbEar.Name = "pbEar";
             this.pbEar.Size = new System.Drawing.Size(36, 36);
@@ -976,6 +1007,7 @@
             // 
             this.pbTop.BackColor = System.Drawing.Color.Transparent;
             this.pbTop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbTop.Item = null;
             this.pbTop.Location = new System.Drawing.Point(89, 130);
             this.pbTop.Name = "pbTop";
             this.pbTop.Size = new System.Drawing.Size(36, 36);
@@ -987,6 +1019,7 @@
             // 
             this.pbEye.BackColor = System.Drawing.Color.Transparent;
             this.pbEye.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbEye.Item = null;
             this.pbEye.Location = new System.Drawing.Point(89, 89);
             this.pbEye.Name = "pbEye";
             this.pbEye.Size = new System.Drawing.Size(36, 36);
@@ -998,6 +1031,7 @@
             // 
             this.pbFace.BackColor = System.Drawing.Color.Transparent;
             this.pbFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbFace.Item = null;
             this.pbFace.Location = new System.Drawing.Point(89, 48);
             this.pbFace.Name = "pbFace";
             this.pbFace.Size = new System.Drawing.Size(36, 36);
@@ -1009,6 +1043,7 @@
             // 
             this.pbHat.BackColor = System.Drawing.Color.Transparent;
             this.pbHat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbHat.Item = null;
             this.pbHat.Location = new System.Drawing.Point(89, 7);
             this.pbHat.Name = "pbHat";
             this.pbHat.Size = new System.Drawing.Size(36, 36);
@@ -1020,6 +1055,7 @@
             // 
             this.pbBelt.BackColor = System.Drawing.Color.Transparent;
             this.pbBelt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBelt.Item = null;
             this.pbBelt.Location = new System.Drawing.Point(48, 171);
             this.pbBelt.Name = "pbBelt";
             this.pbBelt.Size = new System.Drawing.Size(36, 36);
@@ -1031,6 +1067,7 @@
             // 
             this.pbPendant1.BackColor = System.Drawing.Color.Transparent;
             this.pbPendant1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbPendant1.Item = null;
             this.pbPendant1.Location = new System.Drawing.Point(48, 89);
             this.pbPendant1.Name = "pbPendant1";
             this.pbPendant1.Size = new System.Drawing.Size(36, 36);
@@ -1042,6 +1079,7 @@
             // 
             this.pbPendant2.BackColor = System.Drawing.Color.Transparent;
             this.pbPendant2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbPendant2.Item = null;
             this.pbPendant2.Location = new System.Drawing.Point(48, 48);
             this.pbPendant2.Name = "pbPendant2";
             this.pbPendant2.Size = new System.Drawing.Size(36, 36);
@@ -1053,6 +1091,7 @@
             // 
             this.pbBook.BackColor = System.Drawing.Color.Transparent;
             this.pbBook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBook.Item = null;
             this.pbBook.Location = new System.Drawing.Point(7, 212);
             this.pbBook.Name = "pbBook";
             this.pbBook.Size = new System.Drawing.Size(36, 36);
@@ -1065,6 +1104,7 @@
             // 
             this.pbPocket.BackColor = System.Drawing.Color.Transparent;
             this.pbPocket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbPocket.Item = null;
             this.pbPocket.Location = new System.Drawing.Point(7, 171);
             this.pbPocket.Name = "pbPocket";
             this.pbPocket.Size = new System.Drawing.Size(36, 36);
@@ -1076,6 +1116,7 @@
             // 
             this.pbRing1.BackColor = System.Drawing.Color.Transparent;
             this.pbRing1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbRing1.Item = null;
             this.pbRing1.Location = new System.Drawing.Point(7, 130);
             this.pbRing1.Name = "pbRing1";
             this.pbRing1.Size = new System.Drawing.Size(36, 36);
@@ -1087,6 +1128,7 @@
             // 
             this.pbRing2.BackColor = System.Drawing.Color.Transparent;
             this.pbRing2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbRing2.Item = null;
             this.pbRing2.Location = new System.Drawing.Point(7, 89);
             this.pbRing2.Name = "pbRing2";
             this.pbRing2.Size = new System.Drawing.Size(36, 36);
@@ -1098,6 +1140,7 @@
             // 
             this.pbRing3.BackColor = System.Drawing.Color.Transparent;
             this.pbRing3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbRing3.Item = null;
             this.pbRing3.Location = new System.Drawing.Point(7, 48);
             this.pbRing3.Name = "pbRing3";
             this.pbRing3.Size = new System.Drawing.Size(36, 36);
@@ -1109,6 +1152,7 @@
             // 
             this.pbRing4.BackColor = System.Drawing.Color.Transparent;
             this.pbRing4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbRing4.Item = null;
             this.pbRing4.Location = new System.Drawing.Point(7, 7);
             this.pbRing4.Name = "pbRing4";
             this.pbRing4.Size = new System.Drawing.Size(36, 36);
@@ -1120,6 +1164,7 @@
             // 
             this.pbWeapon.BackColor = System.Drawing.Color.Transparent;
             this.pbWeapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbWeapon.Item = null;
             this.pbWeapon.Location = new System.Drawing.Point(48, 130);
             this.pbWeapon.Name = "pbWeapon";
             this.pbWeapon.Size = new System.Drawing.Size(36, 36);
@@ -1131,6 +1176,7 @@
             // 
             this.pbCape.BackColor = System.Drawing.Color.Transparent;
             this.pbCape.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbCape.Item = null;
             this.pbCape.Location = new System.Drawing.Point(171, 171);
             this.pbCape.Name = "pbCape";
             this.pbCape.Size = new System.Drawing.Size(36, 36);
@@ -1155,6 +1201,7 @@
             // 
             this.pbMirTail.BackColor = System.Drawing.Color.Transparent;
             this.pbMirTail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirTail.Item = null;
             this.pbMirTail.Location = new System.Drawing.Point(162, 107);
             this.pbMirTail.Name = "pbMirTail";
             this.pbMirTail.Size = new System.Drawing.Size(36, 36);
@@ -1166,6 +1213,7 @@
             // 
             this.pbMirWing.BackColor = System.Drawing.Color.Transparent;
             this.pbMirWing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirWing.Item = null;
             this.pbMirWing.Location = new System.Drawing.Point(112, 72);
             this.pbMirWing.Name = "pbMirWing";
             this.pbMirWing.Size = new System.Drawing.Size(36, 36);
@@ -1177,6 +1225,7 @@
             // 
             this.pbMirPendant.BackColor = System.Drawing.Color.Transparent;
             this.pbMirPendant.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirPendant.Item = null;
             this.pbMirPendant.Location = new System.Drawing.Point(53, 131);
             this.pbMirPendant.Name = "pbMirPendant";
             this.pbMirPendant.Size = new System.Drawing.Size(36, 36);
@@ -1188,6 +1237,7 @@
             // 
             this.pbMirHat.BackColor = System.Drawing.Color.Transparent;
             this.pbMirHat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbMirHat.Item = null;
             this.pbMirHat.Location = new System.Drawing.Point(15, 72);
             this.pbMirHat.Name = "pbMirHat";
             this.pbMirHat.Size = new System.Drawing.Size(36, 36);

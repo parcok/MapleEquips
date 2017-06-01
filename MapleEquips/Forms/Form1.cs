@@ -63,6 +63,7 @@ namespace MapleEquips {
             // fk sky statsGroupBox.Location = new Point(50, 310);
         }
 
+        //this.pbBook.MouseHover += new System.EventHandler(this.pbBook_MouseHover); Ensure to add handler in designer
         private void pbBook_MouseHover(object sender, EventArgs e) {
             toolTip1.SetToolTip(pbBook, pbBook.Item.hoverStats());
         }
