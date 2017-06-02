@@ -15,8 +15,12 @@ namespace MapleEquips {
         Item itemTest = new Item("Test Name", 500, 250, 300, 400);
         public Form1() {
             InitializeComponent();
+
             //Width = 1182;
             pbBook.Item = itemTest;
+            panelMir.Location = new Point(461, 41);
+            this.Width = 715;
+            statsGroupBox.Location = new Point(81, 310);
             pbTotem3.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
             pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
             pbMirWing.Image = MapleEquips.Properties.Resources.ChuChu;
@@ -24,26 +28,6 @@ namespace MapleEquips {
             pbMirPendant.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
             pbMechFrame.Image = MapleEquips.Properties.Resources.ChuChu;
             pbMechTransistor.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
-        }
-
-        private void button1_Click(object sender, EventArgs e) {
-            if (Width == 977) {
-                Width = 671;
-            }
-
-            else {
-                Width = 977;
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e) {
-            if (Width == 977) {
-                Width = 671;
-            }
-
-            else {
-                Width = 977;
-            }
         }
 
         private void newCharacterToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -64,9 +48,11 @@ namespace MapleEquips {
         }
 
         //this.pbBook.MouseHover += new System.EventHandler(this.pbBook_MouseHover); Ensure to add handler in designer
-        private void pbBook_MouseHover(object sender, EventArgs e) {
-            toolTip1.SetToolTip(pbBook, pbBook.Item.hoverStats());
+        private void pbEnhanced_MouseHover(object sender, EventArgs e) {
+            EnhancedPictureBox hoveredBox = (EnhancedPictureBox)sender;
+            if (hoveredBox.Item != null) {
+                toolTip1.SetToolTip(hoveredBox, hoveredBox.Item.hoverStats());
+            }
         }
-
     }
 }
