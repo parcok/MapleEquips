@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,7 +71,6 @@
             this.panelTotem = new System.Windows.Forms.Panel();
             this.panelEquip = new System.Windows.Forms.Panel();
             this.panelMir = new System.Windows.Forms.Panel();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pbHakuFan = new MapleEquips.Objects.EnhancedPictureBox();
             this.pictureBox8 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pictureBox1 = new MapleEquips.Objects.EnhancedPictureBox();
@@ -123,6 +121,7 @@
             this.pbMirWing = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMirPendant = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMirHat = new MapleEquips.Objects.EnhancedPictureBox();
+            this.enhancedToolTip1 = new MapleEquips.Objects.EnhancedToolTip();
             this.menuStrip1.SuspendLayout();
             this.statsGroupBox.SuspendLayout();
             this.panelHaku.SuspendLayout();
@@ -609,6 +608,7 @@
             // 
             // panelEquip
             // 
+            this.panelEquip.AutoSize = true;
             this.panelEquip.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Inventory;
             this.panelEquip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelEquip.Controls.Add(this.pbEmblem);
@@ -1111,6 +1111,7 @@
             this.pbBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbBook.TabIndex = 54;
             this.pbBook.TabStop = false;
+            this.pbBook.MouseHover += pbEnhanced_MouseHover;
             // 
             // pbPocket
             // 
@@ -1244,12 +1245,21 @@
             this.pbMirHat.TabIndex = 73;
             this.pbMirHat.TabStop = false;
             // 
+            // enhancedToolTip1
+            // 
+            this.enhancedToolTip1.AutoSize = false;
+            this.enhancedToolTip1.BackColor = System.Drawing.Color.Transparent;
+            this.enhancedToolTip1.BorderColor = System.Drawing.Color.Transparent;
+            this.enhancedToolTip1.OwnerDraw = true;
+            this.enhancedToolTip1.Size = new System.Drawing.Size(200, 100);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
-            this.ClientSize = new System.Drawing.Size(1164, 595);
+            this.ClientSize = new System.Drawing.Size(1164, 603);
             this.Controls.Add(this.panelHaku);
             this.Controls.Add(this.statsGroupBox);
             this.Controls.Add(this.panelMech);
@@ -1421,7 +1431,7 @@
         private MapleEquips.Objects.EnhancedPictureBox pbChuChu;
         private System.Windows.Forms.Panel panelHaku;
         private MapleEquips.Objects.EnhancedPictureBox pbHakuFan;
-        private System.Windows.Forms.ToolTip toolTip1;
+        private Objects.EnhancedToolTip enhancedToolTip1;
     }
 }
 

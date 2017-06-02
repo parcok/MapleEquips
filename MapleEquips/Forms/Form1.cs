@@ -15,12 +15,13 @@ namespace MapleEquips {
         Item itemTest = new Item("Test Name", 500, 250, 300, 400);
         public Form1() {
             InitializeComponent();
-
+            pbBook.Item = itemTest;
+            pbBook.Image = MapleEquips.Properties.Resources.ChuChu;
             //Width = 1182;
             pbBook.Item = itemTest;
-            panelMir.Location = new Point(461, 41);
-            this.Width = 715;
-            statsGroupBox.Location = new Point(81, 310);
+            //panelMir.Location = new Point(461, 41);
+            //this.Width = 715;
+            //statsGroupBox.Location = new Point(81, 310);
             pbTotem3.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
             pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
             pbMirWing.Image = MapleEquips.Properties.Resources.ChuChu;
@@ -51,8 +52,14 @@ namespace MapleEquips {
         private void pbEnhanced_MouseHover(object sender, EventArgs e) {
             EnhancedPictureBox hoveredBox = (EnhancedPictureBox)sender;
             if (hoveredBox.Item != null) {
-                toolTip1.SetToolTip(hoveredBox, hoveredBox.Item.hoverStats());
+                hoveredBox.Tag = MapleEquips.Properties.Resources.ChuChu;
+                enhancedToolTip1.SetToolTip(hoveredBox, "Test");
             }
+        }
+
+        private void pbEnhanced_MouseLeave(object sender, EventArgs e) {
+            EnhancedPictureBox hoveredBox = (EnhancedPictureBox)sender;
+            hoveredBox.Tag = null;
         }
     }
 }
