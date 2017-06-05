@@ -316,6 +316,14 @@ namespace MapleEquips.Objects {
         }
 
         #endregion
+
+        private void InitializeComponent() {
+            // 
+            // EnhancedToolTip
+            // 
+            this.OwnerDraw = true;
+
+        }
     }
 }
 

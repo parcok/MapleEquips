@@ -73,6 +73,9 @@
     <EmbeddedResource Include="Forms\NewCharacter.resx">
       <DependentUpon>NewCharacter.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Objects\EnhancedToolTip.resx">
+      <DependentUpon>EnhancedToolTip.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
