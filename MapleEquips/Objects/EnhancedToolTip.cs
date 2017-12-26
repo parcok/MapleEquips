@@ -29,7 +29,7 @@ namespace MapleEquips.Objects {
         #region Fields
 
         private static Color myBorderColor = Color.Transparent;
-        private static Font myFont = new Font("Arial", 8);
+        private static Font myFont = new Font("Arial", 15);
 
         private StringFormat myTextFormat = new StringFormat();
 

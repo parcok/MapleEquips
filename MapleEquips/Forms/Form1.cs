@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MapleEquips.Objects;
+using DevExpress.Utils;
+using System.Data.SQLite;
 
 namespace MapleEquips {
 
@@ -50,12 +52,45 @@ namespace MapleEquips {
 
         //this.pbBook.MouseHover += new System.EventHandler(this.pbBook_MouseHover); Ensure to add handler in designer
         private void pbEnhanced_MouseHover(object sender, EventArgs e) {
-            EnhancedPictureBox hoveredBox = (EnhancedPictureBox)sender;
+            /*EnhancedPictureBox hoveredBox = (EnhancedPictureBox)sender;
             if (hoveredBox.Item != null) {
                 hoveredBox.Tag = MapleEquips.Properties.Resources.ChuChu;
                 enhancedToolTip1.SetToolTip(hoveredBox, "Test");
-            }
+            }*/
+            DevExpress.Utils.SuperToolTip tip = new DevExpress.Utils.SuperToolTip();
+            //setup the SuperToolTip...
+            ToolTipTitleItem titleItem1 = new ToolTipTitleItem();
+            titleItem1.Text = "Edit Popup Menu";
+            tip.Items.Add(titleItem1);
+            Image resImage = MapleEquips.Properties.Resources.ChuChu;
+            ToolTipItem item1 = new ToolTipItem();
+            item1.Image = resImage;
+            item1.Text = "Show the Edit popup menu";
+            tip.Items.Add(item1);
+            pictureEdit1.SuperTip = tip;
         }
+
+        private void equipmentHover(object sender, EventArgs e) {
+            DevExpress.XtraEditors.PictureEdit box = (DevExpress.XtraEditors.PictureEdit)sender;
+            DevExpress.Utils.SuperToolTip tip = new DevExpress.Utils.SuperToolTip();
+            SuperToolTipSetupArgs itemInfo = new SuperToolTipSetupArgs();
+            SQLiteConnection m_dbConnection = new SQLiteConnection("Data Source=Database.db;Version=3;");
+            m_dbConnection.Open();
+            string sql = "select * from equips where equipSlot='" + box.Name + "'";
+            SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+            SQLiteDataReader reader = command.ExecuteReader();
+            if (reader.Read()) {
+                itemInfo.Title.Text = reader["title"].ToString();
+                itemInfo.Contents.Image = box.BackgroundImage;
+                //itemInfo.Contents.Text = "STR: 10\r\nDEX: 10\nINT: 23\nLUK: 69";
+                itemInfo.Contents.Text = Convert.ToString(reader["text"]);//.ToString().Replace("\n",Environment.NewLine);
+                itemInfo.ShowFooterSeparator = true;
+                itemInfo.Footer.Text = reader["footer"].ToString();
+            }
+            tip.Setup(itemInfo);
+            pictureEdit1.SuperTip = tip;
+        }
+
 
         private void pbEnhanced_MouseLeave(object sender, EventArgs e) {
             EnhancedPictureBox hoveredBox = (EnhancedPictureBox)sender;

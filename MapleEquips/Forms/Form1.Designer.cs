@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,13 +66,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.statsGroupBox = new System.Windows.Forms.GroupBox();
-            this.panelHaku = new System.Windows.Forms.Panel();
-            this.panelMech = new System.Windows.Forms.Panel();
-            this.panelArc = new System.Windows.Forms.Panel();
-            this.panelTotem = new System.Windows.Forms.Panel();
-            this.panelEquip = new System.Windows.Forms.Panel();
-            this.panelMir = new System.Windows.Forms.Panel();
-            this.pbHakuFan = new MapleEquips.Objects.EnhancedPictureBox();
             this.pictureBox8 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pictureBox1 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pictureBox7 = new MapleEquips.Objects.EnhancedPictureBox();
@@ -80,17 +74,23 @@
             this.pictureBox5 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pictureBox3 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pictureBox6 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.panelHaku = new System.Windows.Forms.Panel();
+            this.pbHakuFan = new MapleEquips.Objects.EnhancedPictureBox();
+            this.panelMech = new System.Windows.Forms.Panel();
             this.pbMechLeg = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMechArm = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMechEngine = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMechFrame = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMechTransistor = new MapleEquips.Objects.EnhancedPictureBox();
+            this.panelArc = new System.Windows.Forms.Panel();
             this.pbLach = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbChuChu = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbVanishing = new MapleEquips.Objects.EnhancedPictureBox();
+            this.panelTotem = new System.Windows.Forms.Panel();
             this.pbTotem3 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbTotem2 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbTotem1 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.panelEquip = new System.Windows.Forms.Panel();
             this.pbEmblem = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbBadge = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMedal = new MapleEquips.Objects.EnhancedPictureBox();
@@ -117,20 +117,16 @@
             this.pbRing4 = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbWeapon = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbCape = new MapleEquips.Objects.EnhancedPictureBox();
+            this.panelMir = new System.Windows.Forms.Panel();
             this.pbMirTail = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMirWing = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMirPendant = new MapleEquips.Objects.EnhancedPictureBox();
             this.pbMirHat = new MapleEquips.Objects.EnhancedPictureBox();
+            this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
+            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.enhancedToolTip1 = new MapleEquips.Objects.EnhancedToolTip();
             this.menuStrip1.SuspendLayout();
             this.statsGroupBox.SuspendLayout();
-            this.panelHaku.SuspendLayout();
-            this.panelMech.SuspendLayout();
-            this.panelArc.SuspendLayout();
-            this.panelTotem.SuspendLayout();
-            this.panelEquip.SuspendLayout();
-            this.panelMir.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -139,17 +135,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panelHaku.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).BeginInit();
+            this.panelMech.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechLeg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechArm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechEngine)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechFrame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechTransistor)).BeginInit();
+            this.panelArc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChuChu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbVanishing)).BeginInit();
+            this.panelTotem.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTotem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTotem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTotem1)).BeginInit();
+            this.panelEquip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbEmblem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBadge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMedal)).BeginInit();
@@ -176,10 +178,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbRing4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCape)).BeginInit();
+            this.panelMir.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMirTail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMirWing)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMirPendant)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMirHat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -558,115 +562,6 @@
             this.statsGroupBox.Text = "Stats";
             this.statsGroupBox.Enter += new System.EventHandler(this.statsGroupBox_Enter);
             // 
-            // panelHaku
-            // 
-            this.panelHaku.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHaku.BackgroundImage")));
-            this.panelHaku.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelHaku.Controls.Add(this.pbHakuFan);
-            this.panelHaku.Location = new System.Drawing.Point(720, 310);
-            this.panelHaku.Name = "panelHaku";
-            this.panelHaku.Size = new System.Drawing.Size(214, 256);
-            this.panelHaku.TabIndex = 48;
-            // 
-            // panelMech
-            // 
-            this.panelMech.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mech;
-            this.panelMech.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelMech.Controls.Add(this.pbMechLeg);
-            this.panelMech.Controls.Add(this.pbMechArm);
-            this.panelMech.Controls.Add(this.pbMechEngine);
-            this.panelMech.Controls.Add(this.pbMechFrame);
-            this.panelMech.Controls.Add(this.pbMechTransistor);
-            this.panelMech.Location = new System.Drawing.Point(720, 40);
-            this.panelMech.Name = "panelMech";
-            this.panelMech.Size = new System.Drawing.Size(214, 256);
-            this.panelMech.TabIndex = 7;
-            // 
-            // panelArc
-            // 
-            this.panelArc.BackgroundImage = global::MapleEquips.Properties.Resources.Arc;
-            this.panelArc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelArc.Controls.Add(this.pbLach);
-            this.panelArc.Controls.Add(this.pbChuChu);
-            this.panelArc.Controls.Add(this.pbVanishing);
-            this.panelArc.Location = new System.Drawing.Point(284, 41);
-            this.panelArc.Name = "panelArc";
-            this.panelArc.Size = new System.Drawing.Size(171, 205);
-            this.panelArc.TabIndex = 6;
-            // 
-            // panelTotem
-            // 
-            this.panelTotem.BackgroundImage = global::MapleEquips.Properties.Resources.Totem;
-            this.panelTotem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelTotem.Controls.Add(this.pbTotem3);
-            this.panelTotem.Controls.Add(this.pbTotem2);
-            this.panelTotem.Controls.Add(this.pbTotem1);
-            this.panelTotem.Location = new System.Drawing.Point(12, 41);
-            this.panelTotem.Name = "panelTotem";
-            this.panelTotem.Size = new System.Drawing.Size(46, 127);
-            this.panelTotem.TabIndex = 5;
-            // 
-            // panelEquip
-            // 
-            this.panelEquip.AutoSize = true;
-            this.panelEquip.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Inventory;
-            this.panelEquip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelEquip.Controls.Add(this.pbEmblem);
-            this.panelEquip.Controls.Add(this.pbBadge);
-            this.panelEquip.Controls.Add(this.pbMedal);
-            this.panelEquip.Controls.Add(this.pbSubWeapon);
-            this.panelEquip.Controls.Add(this.pbHeart);
-            this.panelEquip.Controls.Add(this.pbAndroid);
-            this.panelEquip.Controls.Add(this.pbShoes);
-            this.panelEquip.Controls.Add(this.pbGloves);
-            this.panelEquip.Controls.Add(this.pbShoulder);
-            this.panelEquip.Controls.Add(this.pbBottom);
-            this.panelEquip.Controls.Add(this.pbEar);
-            this.panelEquip.Controls.Add(this.pbTop);
-            this.panelEquip.Controls.Add(this.pbEye);
-            this.panelEquip.Controls.Add(this.pbFace);
-            this.panelEquip.Controls.Add(this.pbHat);
-            this.panelEquip.Controls.Add(this.pbBelt);
-            this.panelEquip.Controls.Add(this.pbPendant1);
-            this.panelEquip.Controls.Add(this.pbPendant2);
-            this.panelEquip.Controls.Add(this.pbBook);
-            this.panelEquip.Controls.Add(this.pbPocket);
-            this.panelEquip.Controls.Add(this.pbRing1);
-            this.panelEquip.Controls.Add(this.pbRing2);
-            this.panelEquip.Controls.Add(this.pbRing3);
-            this.panelEquip.Controls.Add(this.pbRing4);
-            this.panelEquip.Controls.Add(this.pbWeapon);
-            this.panelEquip.Controls.Add(this.pbCape);
-            this.panelEquip.Location = new System.Drawing.Point(64, 41);
-            this.panelEquip.Name = "panelEquip";
-            this.panelEquip.Size = new System.Drawing.Size(214, 255);
-            this.panelEquip.TabIndex = 4;
-            // 
-            // panelMir
-            // 
-            this.panelMir.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mir;
-            this.panelMir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelMir.Controls.Add(this.pbMirTail);
-            this.panelMir.Controls.Add(this.pbMirWing);
-            this.panelMir.Controls.Add(this.pbMirPendant);
-            this.panelMir.Controls.Add(this.pbMirHat);
-            this.panelMir.Location = new System.Drawing.Point(940, 41);
-            this.panelMir.Name = "panelMir";
-            this.panelMir.Size = new System.Drawing.Size(214, 256);
-            this.panelMir.TabIndex = 0;
-            // 
-            // pbHakuFan
-            // 
-            this.pbHakuFan.BackColor = System.Drawing.Color.Transparent;
-            this.pbHakuFan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbHakuFan.Item = null;
-            this.pbHakuFan.Location = new System.Drawing.Point(47, 130);
-            this.pbHakuFan.Name = "pbHakuFan";
-            this.pbHakuFan.Size = new System.Drawing.Size(36, 36);
-            this.pbHakuFan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbHakuFan.TabIndex = 74;
-            this.pbHakuFan.TabStop = false;
-            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::MapleEquips.Properties.Resources.Star_Force;
@@ -755,6 +650,42 @@
             this.pictureBox6.TabIndex = 28;
             this.pictureBox6.TabStop = false;
             // 
+            // panelHaku
+            // 
+            this.panelHaku.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHaku.BackgroundImage")));
+            this.panelHaku.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelHaku.Controls.Add(this.pbHakuFan);
+            this.panelHaku.Location = new System.Drawing.Point(720, 310);
+            this.panelHaku.Name = "panelHaku";
+            this.panelHaku.Size = new System.Drawing.Size(214, 256);
+            this.panelHaku.TabIndex = 48;
+            // 
+            // pbHakuFan
+            // 
+            this.pbHakuFan.BackColor = System.Drawing.Color.Transparent;
+            this.pbHakuFan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbHakuFan.Item = null;
+            this.pbHakuFan.Location = new System.Drawing.Point(47, 130);
+            this.pbHakuFan.Name = "pbHakuFan";
+            this.pbHakuFan.Size = new System.Drawing.Size(36, 36);
+            this.pbHakuFan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbHakuFan.TabIndex = 74;
+            this.pbHakuFan.TabStop = false;
+            // 
+            // panelMech
+            // 
+            this.panelMech.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mech;
+            this.panelMech.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMech.Controls.Add(this.pbMechLeg);
+            this.panelMech.Controls.Add(this.pbMechArm);
+            this.panelMech.Controls.Add(this.pbMechEngine);
+            this.panelMech.Controls.Add(this.pbMechFrame);
+            this.panelMech.Controls.Add(this.pbMechTransistor);
+            this.panelMech.Location = new System.Drawing.Point(720, 40);
+            this.panelMech.Name = "panelMech";
+            this.panelMech.Size = new System.Drawing.Size(214, 256);
+            this.panelMech.TabIndex = 7;
+            // 
             // pbMechLeg
             // 
             this.pbMechLeg.BackColor = System.Drawing.Color.Transparent;
@@ -815,6 +746,18 @@
             this.pbMechTransistor.TabIndex = 77;
             this.pbMechTransistor.TabStop = false;
             // 
+            // panelArc
+            // 
+            this.panelArc.BackgroundImage = global::MapleEquips.Properties.Resources.Arc;
+            this.panelArc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelArc.Controls.Add(this.pbLach);
+            this.panelArc.Controls.Add(this.pbChuChu);
+            this.panelArc.Controls.Add(this.pbVanishing);
+            this.panelArc.Location = new System.Drawing.Point(284, 41);
+            this.panelArc.Name = "panelArc";
+            this.panelArc.Size = new System.Drawing.Size(171, 205);
+            this.panelArc.TabIndex = 6;
+            // 
             // pbLach
             // 
             this.pbLach.BackColor = System.Drawing.Color.Transparent;
@@ -847,6 +790,18 @@
             this.pbVanishing.Size = new System.Drawing.Size(34, 33);
             this.pbVanishing.TabIndex = 0;
             this.pbVanishing.TabStop = false;
+            // 
+            // panelTotem
+            // 
+            this.panelTotem.BackgroundImage = global::MapleEquips.Properties.Resources.Totem;
+            this.panelTotem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelTotem.Controls.Add(this.pbTotem3);
+            this.panelTotem.Controls.Add(this.pbTotem2);
+            this.panelTotem.Controls.Add(this.pbTotem1);
+            this.panelTotem.Location = new System.Drawing.Point(12, 41);
+            this.panelTotem.Name = "panelTotem";
+            this.panelTotem.Size = new System.Drawing.Size(46, 127);
+            this.panelTotem.TabIndex = 5;
             // 
             // pbTotem3
             // 
@@ -883,6 +838,42 @@
             this.pbTotem1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbTotem1.TabIndex = 82;
             this.pbTotem1.TabStop = false;
+            // 
+            // panelEquip
+            // 
+            this.panelEquip.AutoSize = true;
+            this.panelEquip.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Inventory;
+            this.panelEquip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelEquip.Controls.Add(this.pbEmblem);
+            this.panelEquip.Controls.Add(this.pbBadge);
+            this.panelEquip.Controls.Add(this.pbMedal);
+            this.panelEquip.Controls.Add(this.pbSubWeapon);
+            this.panelEquip.Controls.Add(this.pbHeart);
+            this.panelEquip.Controls.Add(this.pbAndroid);
+            this.panelEquip.Controls.Add(this.pbShoes);
+            this.panelEquip.Controls.Add(this.pbGloves);
+            this.panelEquip.Controls.Add(this.pbShoulder);
+            this.panelEquip.Controls.Add(this.pbBottom);
+            this.panelEquip.Controls.Add(this.pbEar);
+            this.panelEquip.Controls.Add(this.pbTop);
+            this.panelEquip.Controls.Add(this.pbEye);
+            this.panelEquip.Controls.Add(this.pbFace);
+            this.panelEquip.Controls.Add(this.pbHat);
+            this.panelEquip.Controls.Add(this.pbBelt);
+            this.panelEquip.Controls.Add(this.pbPendant1);
+            this.panelEquip.Controls.Add(this.pbPendant2);
+            this.panelEquip.Controls.Add(this.pbBook);
+            this.panelEquip.Controls.Add(this.pbPocket);
+            this.panelEquip.Controls.Add(this.pbRing1);
+            this.panelEquip.Controls.Add(this.pbRing2);
+            this.panelEquip.Controls.Add(this.pbRing3);
+            this.panelEquip.Controls.Add(this.pbRing4);
+            this.panelEquip.Controls.Add(this.pbWeapon);
+            this.panelEquip.Controls.Add(this.pbCape);
+            this.panelEquip.Location = new System.Drawing.Point(64, 41);
+            this.panelEquip.Name = "panelEquip";
+            this.panelEquip.Size = new System.Drawing.Size(214, 255);
+            this.panelEquip.TabIndex = 4;
             // 
             // pbEmblem
             // 
@@ -1111,7 +1102,6 @@
             this.pbBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbBook.TabIndex = 54;
             this.pbBook.TabStop = false;
-            this.pbBook.MouseHover += pbEnhanced_MouseHover;
             // 
             // pbPocket
             // 
@@ -1197,6 +1187,19 @@
             this.pbCape.TabIndex = 47;
             this.pbCape.TabStop = false;
             // 
+            // panelMir
+            // 
+            this.panelMir.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mir;
+            this.panelMir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMir.Controls.Add(this.pbMirTail);
+            this.panelMir.Controls.Add(this.pbMirWing);
+            this.panelMir.Controls.Add(this.pbMirPendant);
+            this.panelMir.Controls.Add(this.pbMirHat);
+            this.panelMir.Location = new System.Drawing.Point(940, 41);
+            this.panelMir.Name = "panelMir";
+            this.panelMir.Size = new System.Drawing.Size(214, 256);
+            this.panelMir.TabIndex = 0;
+            // 
             // pbMirTail
             // 
             this.pbMirTail.BackColor = System.Drawing.Color.Transparent;
@@ -1245,6 +1248,21 @@
             this.pbMirHat.TabIndex = 73;
             this.pbMirHat.TabStop = false;
             // 
+            // pictureEdit1
+            // 
+            this.pictureEdit1.BackgroundImage = global::MapleEquips.Properties.Resources.Black_Cube;
+            this.pictureEdit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit1.Location = new System.Drawing.Point(553, 145);
+            this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit1.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit1.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit1.TabIndex = 49;
+            this.pictureEdit1.MouseHover += new System.EventHandler(this.equipmentHover);
+            // 
             // enhancedToolTip1
             // 
             this.enhancedToolTip1.AutoSize = false;
@@ -1260,6 +1278,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.ClientSize = new System.Drawing.Size(1164, 603);
+            this.Controls.Add(this.pictureEdit1);
             this.Controls.Add(this.panelHaku);
             this.Controls.Add(this.statsGroupBox);
             this.Controls.Add(this.panelMech);
@@ -1276,13 +1295,6 @@
             this.menuStrip1.PerformLayout();
             this.statsGroupBox.ResumeLayout(false);
             this.statsGroupBox.PerformLayout();
-            this.panelHaku.ResumeLayout(false);
-            this.panelMech.ResumeLayout(false);
-            this.panelArc.ResumeLayout(false);
-            this.panelTotem.ResumeLayout(false);
-            this.panelEquip.ResumeLayout(false);
-            this.panelMir.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -1291,17 +1303,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panelHaku.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).EndInit();
+            this.panelMech.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbMechLeg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechArm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechEngine)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechFrame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMechTransistor)).EndInit();
+            this.panelArc.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLach)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChuChu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbVanishing)).EndInit();
+            this.panelTotem.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbTotem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTotem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTotem1)).EndInit();
+            this.panelEquip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbEmblem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBadge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMedal)).EndInit();
@@ -1328,10 +1346,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbRing4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCape)).EndInit();
+            this.panelMir.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbMirTail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMirWing)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMirPendant)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMirHat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1432,6 +1452,8 @@
         private System.Windows.Forms.Panel panelHaku;
         private MapleEquips.Objects.EnhancedPictureBox pbHakuFan;
         private Objects.EnhancedToolTip enhancedToolTip1;
+        private DevExpress.Utils.ToolTipController toolTipController1;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
     }
 }
 
