@@ -66,124 +66,121 @@
             this.label16 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.statsGroupBox = new System.Windows.Forms.GroupBox();
-            this.pictureBox8 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pictureBox1 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pictureBox7 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pictureBox4 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pictureBox2 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pictureBox5 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pictureBox3 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pictureBox6 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureEdit9 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit8 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit6 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit5 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
             this.panelHaku = new System.Windows.Forms.Panel();
-            this.pbHakuFan = new MapleEquips.Objects.EnhancedPictureBox();
             this.panelMech = new System.Windows.Forms.Panel();
-            this.pbMechLeg = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMechArm = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMechEngine = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMechFrame = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMechTransistor = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureEdit43 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit42 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit41 = new DevExpress.XtraEditors.PictureEdit();
             this.panelArc = new System.Windows.Forms.Panel();
-            this.pbLach = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbChuChu = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbVanishing = new MapleEquips.Objects.EnhancedPictureBox();
+            this.pictureEdit40 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit39 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit38 = new DevExpress.XtraEditors.PictureEdit();
             this.panelTotem = new System.Windows.Forms.Panel();
-            this.pbTotem3 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbTotem2 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbTotem1 = new MapleEquips.Objects.EnhancedPictureBox();
+            this.totem1 = new DevExpress.XtraEditors.PictureEdit();
+            this.totem2 = new DevExpress.XtraEditors.PictureEdit();
+            this.totem3 = new DevExpress.XtraEditors.PictureEdit();
             this.panelEquip = new System.Windows.Forms.Panel();
-            this.pbEmblem = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbBadge = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMedal = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbSubWeapon = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbHeart = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbAndroid = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbShoes = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbGloves = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbShoulder = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbBottom = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbEar = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbTop = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbEye = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbFace = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbHat = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbBelt = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbPendant1 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbPendant2 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbBook = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbPocket = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbRing1 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbRing2 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbRing3 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbRing4 = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbWeapon = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbCape = new MapleEquips.Objects.EnhancedPictureBox();
+            this.heart = new DevExpress.XtraEditors.PictureEdit();
+            this.cape = new DevExpress.XtraEditors.PictureEdit();
+            this.subweapon = new DevExpress.XtraEditors.PictureEdit();
+            this.medal = new DevExpress.XtraEditors.PictureEdit();
+            this.badge = new DevExpress.XtraEditors.PictureEdit();
+            this.emblem = new DevExpress.XtraEditors.PictureEdit();
+            this.android = new DevExpress.XtraEditors.PictureEdit();
+            this.gloves = new DevExpress.XtraEditors.PictureEdit();
+            this.shoulder = new DevExpress.XtraEditors.PictureEdit();
+            this.ear = new DevExpress.XtraEditors.PictureEdit();
+            this.shoes = new DevExpress.XtraEditors.PictureEdit();
+            this.bottom = new DevExpress.XtraEditors.PictureEdit();
+            this.top = new DevExpress.XtraEditors.PictureEdit();
+            this.eye = new DevExpress.XtraEditors.PictureEdit();
+            this.face = new DevExpress.XtraEditors.PictureEdit();
+            this.hat = new DevExpress.XtraEditors.PictureEdit();
+            this.belt = new DevExpress.XtraEditors.PictureEdit();
+            this.weapon = new DevExpress.XtraEditors.PictureEdit();
+            this.pendant1 = new DevExpress.XtraEditors.PictureEdit();
+            this.pendant2 = new DevExpress.XtraEditors.PictureEdit();
+            this.book = new DevExpress.XtraEditors.PictureEdit();
+            this.pocket = new DevExpress.XtraEditors.PictureEdit();
+            this.ring4 = new DevExpress.XtraEditors.PictureEdit();
+            this.ring3 = new DevExpress.XtraEditors.PictureEdit();
+            this.ring2 = new DevExpress.XtraEditors.PictureEdit();
+            this.ring1 = new DevExpress.XtraEditors.PictureEdit();
             this.panelMir = new System.Windows.Forms.Panel();
-            this.pbMirTail = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMirWing = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMirPendant = new MapleEquips.Objects.EnhancedPictureBox();
-            this.pbMirHat = new MapleEquips.Objects.EnhancedPictureBox();
             this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
-            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
-            this.enhancedToolTip1 = new MapleEquips.Objects.EnhancedToolTip();
+            this.pictureEdit44 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit45 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit46 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit47 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit48 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit49 = new DevExpress.XtraEditors.PictureEdit();
+            this.pictureEdit50 = new DevExpress.XtraEditors.PictureEdit();
             this.menuStrip1.SuspendLayout();
             this.statsGroupBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit8.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
             this.panelHaku.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).BeginInit();
             this.panelMech.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechLeg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechArm)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechEngine)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechFrame)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechTransistor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit43.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit42.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit41.Properties)).BeginInit();
             this.panelArc.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLach)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChuChu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbVanishing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit40.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit39.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit38.Properties)).BeginInit();
             this.panelTotem.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTotem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTotem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTotem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totem1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totem2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totem3.Properties)).BeginInit();
             this.panelEquip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEmblem)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBadge)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMedal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSubWeapon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHeart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAndroid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbShoes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbGloves)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbShoulder)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBottom)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTop)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEye)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFace)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHat)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBelt)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPendant1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPendant2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBook)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPocket)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCape)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cape.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subweapon.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medal.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.badge.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emblem.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.android.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gloves.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shoulder.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ear.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shoes.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bottom.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.top.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eye.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.face.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hat.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.belt.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weapon.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pendant1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pendant2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.book.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pocket.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring1.Properties)).BeginInit();
             this.panelMir.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirTail)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirWing)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirPendant)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirHat)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit44.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit45.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit46.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit47.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit48.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit49.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit50.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -514,6 +511,14 @@
             // statsGroupBox
             // 
             this.statsGroupBox.BackColor = System.Drawing.Color.Transparent;
+            this.statsGroupBox.Controls.Add(this.pictureEdit9);
+            this.statsGroupBox.Controls.Add(this.pictureEdit8);
+            this.statsGroupBox.Controls.Add(this.pictureEdit7);
+            this.statsGroupBox.Controls.Add(this.pictureEdit6);
+            this.statsGroupBox.Controls.Add(this.pictureEdit5);
+            this.statsGroupBox.Controls.Add(this.pictureEdit4);
+            this.statsGroupBox.Controls.Add(this.pictureEdit3);
+            this.statsGroupBox.Controls.Add(this.pictureEdit2);
             this.statsGroupBox.Controls.Add(this.label2);
             this.statsGroupBox.Controls.Add(this.textBox15);
             this.statsGroupBox.Controls.Add(this.label3);
@@ -521,18 +526,13 @@
             this.statsGroupBox.Controls.Add(this.textBox1);
             this.statsGroupBox.Controls.Add(this.textBox14);
             this.statsGroupBox.Controls.Add(this.textBox2);
-            this.statsGroupBox.Controls.Add(this.pictureBox8);
-            this.statsGroupBox.Controls.Add(this.pictureBox1);
             this.statsGroupBox.Controls.Add(this.label15);
             this.statsGroupBox.Controls.Add(this.label5);
             this.statsGroupBox.Controls.Add(this.textBox13);
             this.statsGroupBox.Controls.Add(this.label4);
-            this.statsGroupBox.Controls.Add(this.pictureBox7);
             this.statsGroupBox.Controls.Add(this.textBox4);
             this.statsGroupBox.Controls.Add(this.label14);
             this.statsGroupBox.Controls.Add(this.textBox3);
-            this.statsGroupBox.Controls.Add(this.pictureBox4);
-            this.statsGroupBox.Controls.Add(this.pictureBox2);
             this.statsGroupBox.Controls.Add(this.textBox7);
             this.statsGroupBox.Controls.Add(this.label7);
             this.statsGroupBox.Controls.Add(this.textBox8);
@@ -541,8 +541,6 @@
             this.statsGroupBox.Controls.Add(this.textBox6);
             this.statsGroupBox.Controls.Add(this.label9);
             this.statsGroupBox.Controls.Add(this.textBox5);
-            this.statsGroupBox.Controls.Add(this.pictureBox5);
-            this.statsGroupBox.Controls.Add(this.pictureBox3);
             this.statsGroupBox.Controls.Add(this.textBox9);
             this.statsGroupBox.Controls.Add(this.label13);
             this.statsGroupBox.Controls.Add(this.textBox10);
@@ -551,7 +549,6 @@
             this.statsGroupBox.Controls.Add(this.textBox12);
             this.statsGroupBox.Controls.Add(this.label11);
             this.statsGroupBox.Controls.Add(this.textBox11);
-            this.statsGroupBox.Controls.Add(this.pictureBox6);
             this.statsGroupBox.Cursor = System.Windows.Forms.Cursors.Default;
             this.statsGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statsGroupBox.Location = new System.Drawing.Point(12, 310);
@@ -562,714 +559,902 @@
             this.statsGroupBox.Text = "Stats";
             this.statsGroupBox.Enter += new System.EventHandler(this.statsGroupBox_Enter);
             // 
-            // pictureBox8
+            // pictureEdit9
             // 
-            this.pictureBox8.Image = global::MapleEquips.Properties.Resources.Star_Force;
-            this.pictureBox8.Item = null;
-            this.pictureBox8.Location = new System.Drawing.Point(328, 208);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(13, 13);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 43;
-            this.pictureBox8.TabStop = false;
+            this.pictureEdit9.BackgroundImage = global::MapleEquips.Properties.Resources.Lach;
+            this.pictureEdit9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit9.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit9.Location = new System.Drawing.Point(296, 144);
+            this.pictureEdit9.Name = "pictureEdit9";
+            this.pictureEdit9.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit9.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit9.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit9.Properties.NullText = " ";
+            this.pictureEdit9.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit9.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit9.Size = new System.Drawing.Size(30, 30);
+            this.pictureEdit9.TabIndex = 54;
             // 
-            // pictureBox1
+            // pictureEdit8
             // 
-            this.pictureBox1.Image = global::MapleEquips.Properties.Resources.Craftsman_Cube;
-            this.pictureBox1.Item = null;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 33);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
+            this.pictureEdit8.BackgroundImage = global::MapleEquips.Properties.Resources.ChuChu;
+            this.pictureEdit8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit8.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit8.Location = new System.Drawing.Point(296, 87);
+            this.pictureEdit8.Name = "pictureEdit8";
+            this.pictureEdit8.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit8.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit8.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit8.Properties.NullText = " ";
+            this.pictureEdit8.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit8.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit8.Size = new System.Drawing.Size(30, 30);
+            this.pictureEdit8.TabIndex = 53;
             // 
-            // pictureBox7
+            // pictureEdit7
             // 
-            this.pictureBox7.Image = global::MapleEquips.Properties.Resources.Star_Force;
-            this.pictureBox7.Item = null;
-            this.pictureBox7.Location = new System.Drawing.Point(55, 208);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(13, 13);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 40;
-            this.pictureBox7.TabStop = false;
+            this.pictureEdit7.BackgroundImage = global::MapleEquips.Properties.Resources.Vanishing;
+            this.pictureEdit7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit7.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit7.Location = new System.Drawing.Point(296, 33);
+            this.pictureEdit7.Name = "pictureEdit7";
+            this.pictureEdit7.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit7.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit7.Properties.NullText = " ";
+            this.pictureEdit7.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit7.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit7.Size = new System.Drawing.Size(30, 30);
+            this.pictureEdit7.TabIndex = 52;
             // 
-            // pictureBox4
+            // pictureEdit6
             // 
-            this.pictureBox4.Image = global::MapleEquips.Properties.Resources.Lach;
-            this.pictureBox4.Item = null;
-            this.pictureBox4.Location = new System.Drawing.Point(282, 141);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 38;
-            this.pictureBox4.TabStop = false;
+            this.pictureEdit6.BackgroundImage = global::MapleEquips.Properties.Resources.Star_Force;
+            this.pictureEdit6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit6.Location = new System.Drawing.Point(328, 208);
+            this.pictureEdit6.Name = "pictureEdit6";
+            this.pictureEdit6.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit6.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit6.Properties.NullText = " ";
+            this.pictureEdit6.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit6.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit6.Size = new System.Drawing.Size(13, 13);
+            this.pictureEdit6.TabIndex = 51;
             // 
-            // pictureBox2
+            // pictureEdit5
             // 
-            this.pictureBox2.Image = global::MapleEquips.Properties.Resources.Red_Cube;
-            this.pictureBox2.Item = null;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 87);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
+            this.pictureEdit5.BackgroundImage = global::MapleEquips.Properties.Resources.Star_Force;
+            this.pictureEdit5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit5.Location = new System.Drawing.Point(55, 208);
+            this.pictureEdit5.Name = "pictureEdit5";
+            this.pictureEdit5.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit5.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit5.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit5.Properties.NullText = " ";
+            this.pictureEdit5.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit5.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit5.Size = new System.Drawing.Size(13, 13);
+            this.pictureEdit5.TabIndex = 50;
             // 
-            // pictureBox5
+            // pictureEdit4
             // 
-            this.pictureBox5.Image = global::MapleEquips.Properties.Resources.ChuChu;
-            this.pictureBox5.Item = null;
-            this.pictureBox5.Location = new System.Drawing.Point(282, 87);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 33;
-            this.pictureBox5.TabStop = false;
+            this.pictureEdit4.BackgroundImage = global::MapleEquips.Properties.Resources.Black_Cube;
+            this.pictureEdit4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit4.Location = new System.Drawing.Point(6, 141);
+            this.pictureEdit4.Name = "pictureEdit4";
+            this.pictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit4.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit4.Properties.NullText = " ";
+            this.pictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit4.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit4.Size = new System.Drawing.Size(30, 30);
+            this.pictureEdit4.TabIndex = 49;
             // 
-            // pictureBox3
+            // pictureEdit3
             // 
-            this.pictureBox3.Image = global::MapleEquips.Properties.Resources.Black_Cube;
-            this.pictureBox3.Item = null;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 141);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
+            this.pictureEdit3.BackgroundImage = global::MapleEquips.Properties.Resources.Red_Cube;
+            this.pictureEdit3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit3.Location = new System.Drawing.Point(6, 87);
+            this.pictureEdit3.Name = "pictureEdit3";
+            this.pictureEdit3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit3.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit3.Properties.NullText = " ";
+            this.pictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit3.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit3.Size = new System.Drawing.Size(30, 30);
+            this.pictureEdit3.TabIndex = 48;
             // 
-            // pictureBox6
+            // pictureEdit2
             // 
-            this.pictureBox6.Image = global::MapleEquips.Properties.Resources.Vanishing;
-            this.pictureBox6.Item = null;
-            this.pictureBox6.Location = new System.Drawing.Point(282, 33);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 28;
-            this.pictureBox6.TabStop = false;
+            this.pictureEdit2.BackgroundImage = global::MapleEquips.Properties.Resources.Craftsman_Cube;
+            this.pictureEdit2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit2.Location = new System.Drawing.Point(7, 33);
+            this.pictureEdit2.Name = "pictureEdit2";
+            this.pictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit2.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit2.Properties.NullText = " ";
+            this.pictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit2.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit2.Size = new System.Drawing.Size(30, 30);
+            this.pictureEdit2.TabIndex = 47;
             // 
             // panelHaku
             // 
             this.panelHaku.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHaku.BackgroundImage")));
             this.panelHaku.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelHaku.Controls.Add(this.pbHakuFan);
+            this.panelHaku.Controls.Add(this.pictureEdit50);
             this.panelHaku.Location = new System.Drawing.Point(720, 310);
             this.panelHaku.Name = "panelHaku";
             this.panelHaku.Size = new System.Drawing.Size(214, 256);
             this.panelHaku.TabIndex = 48;
             // 
-            // pbHakuFan
-            // 
-            this.pbHakuFan.BackColor = System.Drawing.Color.Transparent;
-            this.pbHakuFan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbHakuFan.Item = null;
-            this.pbHakuFan.Location = new System.Drawing.Point(47, 130);
-            this.pbHakuFan.Name = "pbHakuFan";
-            this.pbHakuFan.Size = new System.Drawing.Size(36, 36);
-            this.pbHakuFan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbHakuFan.TabIndex = 74;
-            this.pbHakuFan.TabStop = false;
-            // 
             // panelMech
             // 
             this.panelMech.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mech;
             this.panelMech.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelMech.Controls.Add(this.pbMechLeg);
-            this.panelMech.Controls.Add(this.pbMechArm);
-            this.panelMech.Controls.Add(this.pbMechEngine);
-            this.panelMech.Controls.Add(this.pbMechFrame);
-            this.panelMech.Controls.Add(this.pbMechTransistor);
+            this.panelMech.Controls.Add(this.pictureEdit45);
+            this.panelMech.Controls.Add(this.pictureEdit44);
+            this.panelMech.Controls.Add(this.pictureEdit43);
+            this.panelMech.Controls.Add(this.pictureEdit42);
+            this.panelMech.Controls.Add(this.pictureEdit41);
             this.panelMech.Location = new System.Drawing.Point(720, 40);
             this.panelMech.Name = "panelMech";
             this.panelMech.Size = new System.Drawing.Size(214, 256);
             this.panelMech.TabIndex = 7;
             // 
-            // pbMechLeg
+            // pictureEdit43
             // 
-            this.pbMechLeg.BackColor = System.Drawing.Color.Transparent;
-            this.pbMechLeg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMechLeg.Item = null;
-            this.pbMechLeg.Location = new System.Drawing.Point(92, 184);
-            this.pbMechLeg.Name = "pbMechLeg";
-            this.pbMechLeg.Size = new System.Drawing.Size(36, 36);
-            this.pbMechLeg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMechLeg.TabIndex = 81;
-            this.pbMechLeg.TabStop = false;
+            this.pictureEdit43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit43.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit43.Location = new System.Drawing.Point(104, 53);
+            this.pictureEdit43.Name = "pictureEdit43";
+            this.pictureEdit43.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit43.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit43.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit43.Properties.NullText = " ";
+            this.pictureEdit43.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit43.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit43.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit43.TabIndex = 81;
+            this.pictureEdit43.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbMechArm
+            // pictureEdit42
             // 
-            this.pbMechArm.BackColor = System.Drawing.Color.Transparent;
-            this.pbMechArm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMechArm.Item = null;
-            this.pbMechArm.Location = new System.Drawing.Point(160, 156);
-            this.pbMechArm.Name = "pbMechArm";
-            this.pbMechArm.Size = new System.Drawing.Size(36, 36);
-            this.pbMechArm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMechArm.TabIndex = 80;
-            this.pbMechArm.TabStop = false;
+            this.pictureEdit42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit42.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit42.Location = new System.Drawing.Point(81, 131);
+            this.pictureEdit42.Name = "pictureEdit42";
+            this.pictureEdit42.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit42.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit42.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit42.Properties.NullText = " ";
+            this.pictureEdit42.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit42.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit42.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit42.TabIndex = 80;
+            this.pictureEdit42.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbMechEngine
+            // pictureEdit41
             // 
-            this.pbMechEngine.BackColor = System.Drawing.Color.Transparent;
-            this.pbMechEngine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMechEngine.Item = null;
-            this.pbMechEngine.Location = new System.Drawing.Point(81, 132);
-            this.pbMechEngine.Name = "pbMechEngine";
-            this.pbMechEngine.Size = new System.Drawing.Size(36, 36);
-            this.pbMechEngine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMechEngine.TabIndex = 79;
-            this.pbMechEngine.TabStop = false;
-            // 
-            // pbMechFrame
-            // 
-            this.pbMechFrame.BackColor = System.Drawing.Color.Transparent;
-            this.pbMechFrame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMechFrame.Item = null;
-            this.pbMechFrame.Location = new System.Drawing.Point(17, 80);
-            this.pbMechFrame.Name = "pbMechFrame";
-            this.pbMechFrame.Size = new System.Drawing.Size(36, 36);
-            this.pbMechFrame.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMechFrame.TabIndex = 78;
-            this.pbMechFrame.TabStop = false;
-            // 
-            // pbMechTransistor
-            // 
-            this.pbMechTransistor.BackColor = System.Drawing.Color.Transparent;
-            this.pbMechTransistor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMechTransistor.Item = null;
-            this.pbMechTransistor.Location = new System.Drawing.Point(104, 54);
-            this.pbMechTransistor.Name = "pbMechTransistor";
-            this.pbMechTransistor.Size = new System.Drawing.Size(36, 36);
-            this.pbMechTransistor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMechTransistor.TabIndex = 77;
-            this.pbMechTransistor.TabStop = false;
+            this.pictureEdit41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit41.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit41.Location = new System.Drawing.Point(17, 79);
+            this.pictureEdit41.Name = "pictureEdit41";
+            this.pictureEdit41.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit41.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit41.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit41.Properties.NullText = " ";
+            this.pictureEdit41.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit41.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit41.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit41.TabIndex = 79;
+            this.pictureEdit41.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
             // panelArc
             // 
             this.panelArc.BackgroundImage = global::MapleEquips.Properties.Resources.Arc;
             this.panelArc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelArc.Controls.Add(this.pbLach);
-            this.panelArc.Controls.Add(this.pbChuChu);
-            this.panelArc.Controls.Add(this.pbVanishing);
+            this.panelArc.Controls.Add(this.pictureEdit40);
+            this.panelArc.Controls.Add(this.pictureEdit39);
+            this.panelArc.Controls.Add(this.pictureEdit38);
             this.panelArc.Location = new System.Drawing.Point(284, 41);
             this.panelArc.Name = "panelArc";
             this.panelArc.Size = new System.Drawing.Size(171, 205);
             this.panelArc.TabIndex = 6;
             // 
-            // pbLach
+            // pictureEdit40
             // 
-            this.pbLach.BackColor = System.Drawing.Color.Transparent;
-            this.pbLach.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbLach.Item = null;
-            this.pbLach.Location = new System.Drawing.Point(120, 119);
-            this.pbLach.Name = "pbLach";
-            this.pbLach.Size = new System.Drawing.Size(34, 33);
-            this.pbLach.TabIndex = 2;
-            this.pbLach.TabStop = false;
+            this.pictureEdit40.BackgroundImage = global::MapleEquips.Properties.Resources.Lach;
+            this.pictureEdit40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit40.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit40.Location = new System.Drawing.Point(119, 116);
+            this.pictureEdit40.Name = "pictureEdit40";
+            this.pictureEdit40.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit40.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit40.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit40.Properties.NullText = " ";
+            this.pictureEdit40.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit40.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit40.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit40.TabIndex = 78;
             // 
-            // pbChuChu
+            // pictureEdit39
             // 
-            this.pbChuChu.BackColor = System.Drawing.Color.Transparent;
-            this.pbChuChu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbChuChu.Item = null;
-            this.pbChuChu.Location = new System.Drawing.Point(69, 119);
-            this.pbChuChu.Name = "pbChuChu";
-            this.pbChuChu.Size = new System.Drawing.Size(34, 33);
-            this.pbChuChu.TabIndex = 1;
-            this.pbChuChu.TabStop = false;
+            this.pictureEdit39.BackgroundImage = global::MapleEquips.Properties.Resources.ChuChu;
+            this.pictureEdit39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit39.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit39.Location = new System.Drawing.Point(67, 116);
+            this.pictureEdit39.Name = "pictureEdit39";
+            this.pictureEdit39.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit39.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit39.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit39.Properties.NullText = " ";
+            this.pictureEdit39.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit39.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit39.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit39.TabIndex = 77;
             // 
-            // pbVanishing
+            // pictureEdit38
             // 
-            this.pbVanishing.BackColor = System.Drawing.Color.Transparent;
-            this.pbVanishing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbVanishing.Item = null;
-            this.pbVanishing.Location = new System.Drawing.Point(18, 119);
-            this.pbVanishing.Name = "pbVanishing";
-            this.pbVanishing.Size = new System.Drawing.Size(34, 33);
-            this.pbVanishing.TabIndex = 0;
-            this.pbVanishing.TabStop = false;
+            this.pictureEdit38.BackgroundImage = global::MapleEquips.Properties.Resources.Vanishing;
+            this.pictureEdit38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit38.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit38.Location = new System.Drawing.Point(17, 116);
+            this.pictureEdit38.Name = "pictureEdit38";
+            this.pictureEdit38.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit38.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit38.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit38.Properties.NullText = " ";
+            this.pictureEdit38.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit38.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit38.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit38.TabIndex = 76;
             // 
             // panelTotem
             // 
             this.panelTotem.BackgroundImage = global::MapleEquips.Properties.Resources.Totem;
             this.panelTotem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelTotem.Controls.Add(this.pbTotem3);
-            this.panelTotem.Controls.Add(this.pbTotem2);
-            this.panelTotem.Controls.Add(this.pbTotem1);
+            this.panelTotem.Controls.Add(this.totem1);
+            this.panelTotem.Controls.Add(this.totem2);
+            this.panelTotem.Controls.Add(this.totem3);
             this.panelTotem.Location = new System.Drawing.Point(12, 41);
             this.panelTotem.Name = "panelTotem";
             this.panelTotem.Size = new System.Drawing.Size(46, 127);
             this.panelTotem.TabIndex = 5;
             // 
-            // pbTotem3
+            // totem1
             // 
-            this.pbTotem3.BackColor = System.Drawing.Color.Transparent;
-            this.pbTotem3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbTotem3.Item = null;
-            this.pbTotem3.Location = new System.Drawing.Point(5, 87);
-            this.pbTotem3.Name = "pbTotem3";
-            this.pbTotem3.Size = new System.Drawing.Size(36, 36);
-            this.pbTotem3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbTotem3.TabIndex = 84;
-            this.pbTotem3.TabStop = false;
+            this.totem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.totem1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.totem1.Location = new System.Drawing.Point(4, 5);
+            this.totem1.Name = "totem1";
+            this.totem1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.totem1.Properties.Appearance.Options.UseBackColor = true;
+            this.totem1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.totem1.Properties.NullText = " ";
+            this.totem1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.totem1.Properties.ZoomAccelerationFactor = 1D;
+            this.totem1.Size = new System.Drawing.Size(36, 36);
+            this.totem1.TabIndex = 51;
+            this.totem1.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbTotem2
+            // totem2
             // 
-            this.pbTotem2.BackColor = System.Drawing.Color.Transparent;
-            this.pbTotem2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbTotem2.Item = null;
-            this.pbTotem2.Location = new System.Drawing.Point(5, 47);
-            this.pbTotem2.Name = "pbTotem2";
-            this.pbTotem2.Size = new System.Drawing.Size(36, 36);
-            this.pbTotem2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbTotem2.TabIndex = 83;
-            this.pbTotem2.TabStop = false;
+            this.totem2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.totem2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.totem2.Location = new System.Drawing.Point(4, 46);
+            this.totem2.Name = "totem2";
+            this.totem2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.totem2.Properties.Appearance.Options.UseBackColor = true;
+            this.totem2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.totem2.Properties.NullText = " ";
+            this.totem2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.totem2.Properties.ZoomAccelerationFactor = 1D;
+            this.totem2.Size = new System.Drawing.Size(36, 36);
+            this.totem2.TabIndex = 50;
+            this.totem2.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbTotem1
+            // totem3
             // 
-            this.pbTotem1.BackColor = System.Drawing.Color.Transparent;
-            this.pbTotem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbTotem1.Item = null;
-            this.pbTotem1.Location = new System.Drawing.Point(5, 6);
-            this.pbTotem1.Name = "pbTotem1";
-            this.pbTotem1.Size = new System.Drawing.Size(36, 36);
-            this.pbTotem1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbTotem1.TabIndex = 82;
-            this.pbTotem1.TabStop = false;
+            this.totem3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.totem3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.totem3.Location = new System.Drawing.Point(4, 86);
+            this.totem3.Name = "totem3";
+            this.totem3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.totem3.Properties.Appearance.Options.UseBackColor = true;
+            this.totem3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.totem3.Properties.NullText = " ";
+            this.totem3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.totem3.Properties.ZoomAccelerationFactor = 1D;
+            this.totem3.Size = new System.Drawing.Size(36, 36);
+            this.totem3.TabIndex = 49;
+            this.totem3.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
             // panelEquip
             // 
             this.panelEquip.AutoSize = true;
             this.panelEquip.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Inventory;
             this.panelEquip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelEquip.Controls.Add(this.pbEmblem);
-            this.panelEquip.Controls.Add(this.pbBadge);
-            this.panelEquip.Controls.Add(this.pbMedal);
-            this.panelEquip.Controls.Add(this.pbSubWeapon);
-            this.panelEquip.Controls.Add(this.pbHeart);
-            this.panelEquip.Controls.Add(this.pbAndroid);
-            this.panelEquip.Controls.Add(this.pbShoes);
-            this.panelEquip.Controls.Add(this.pbGloves);
-            this.panelEquip.Controls.Add(this.pbShoulder);
-            this.panelEquip.Controls.Add(this.pbBottom);
-            this.panelEquip.Controls.Add(this.pbEar);
-            this.panelEquip.Controls.Add(this.pbTop);
-            this.panelEquip.Controls.Add(this.pbEye);
-            this.panelEquip.Controls.Add(this.pbFace);
-            this.panelEquip.Controls.Add(this.pbHat);
-            this.panelEquip.Controls.Add(this.pbBelt);
-            this.panelEquip.Controls.Add(this.pbPendant1);
-            this.panelEquip.Controls.Add(this.pbPendant2);
-            this.panelEquip.Controls.Add(this.pbBook);
-            this.panelEquip.Controls.Add(this.pbPocket);
-            this.panelEquip.Controls.Add(this.pbRing1);
-            this.panelEquip.Controls.Add(this.pbRing2);
-            this.panelEquip.Controls.Add(this.pbRing3);
-            this.panelEquip.Controls.Add(this.pbRing4);
-            this.panelEquip.Controls.Add(this.pbWeapon);
-            this.panelEquip.Controls.Add(this.pbCape);
+            this.panelEquip.Controls.Add(this.heart);
+            this.panelEquip.Controls.Add(this.cape);
+            this.panelEquip.Controls.Add(this.subweapon);
+            this.panelEquip.Controls.Add(this.medal);
+            this.panelEquip.Controls.Add(this.badge);
+            this.panelEquip.Controls.Add(this.emblem);
+            this.panelEquip.Controls.Add(this.android);
+            this.panelEquip.Controls.Add(this.gloves);
+            this.panelEquip.Controls.Add(this.shoulder);
+            this.panelEquip.Controls.Add(this.ear);
+            this.panelEquip.Controls.Add(this.shoes);
+            this.panelEquip.Controls.Add(this.bottom);
+            this.panelEquip.Controls.Add(this.top);
+            this.panelEquip.Controls.Add(this.eye);
+            this.panelEquip.Controls.Add(this.face);
+            this.panelEquip.Controls.Add(this.hat);
+            this.panelEquip.Controls.Add(this.belt);
+            this.panelEquip.Controls.Add(this.weapon);
+            this.panelEquip.Controls.Add(this.pendant1);
+            this.panelEquip.Controls.Add(this.pendant2);
+            this.panelEquip.Controls.Add(this.book);
+            this.panelEquip.Controls.Add(this.pocket);
+            this.panelEquip.Controls.Add(this.ring4);
+            this.panelEquip.Controls.Add(this.ring3);
+            this.panelEquip.Controls.Add(this.ring2);
+            this.panelEquip.Controls.Add(this.ring1);
             this.panelEquip.Location = new System.Drawing.Point(64, 41);
             this.panelEquip.Name = "panelEquip";
             this.panelEquip.Size = new System.Drawing.Size(214, 255);
             this.panelEquip.TabIndex = 4;
             // 
-            // pbEmblem
+            // heart
             // 
-            this.pbEmblem.BackColor = System.Drawing.Color.Transparent;
-            this.pbEmblem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbEmblem.Item = null;
-            this.pbEmblem.Location = new System.Drawing.Point(171, 7);
-            this.pbEmblem.Name = "pbEmblem";
-            this.pbEmblem.Size = new System.Drawing.Size(36, 36);
-            this.pbEmblem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbEmblem.TabIndex = 72;
-            this.pbEmblem.TabStop = false;
+            this.heart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.heart.Cursor = System.Windows.Forms.Cursors.Default;
+            this.heart.Location = new System.Drawing.Point(170, 211);
+            this.heart.Name = "heart";
+            this.heart.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.heart.Properties.Appearance.Options.UseBackColor = true;
+            this.heart.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.heart.Properties.NullText = " ";
+            this.heart.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.heart.Properties.ZoomAccelerationFactor = 1D;
+            this.heart.Size = new System.Drawing.Size(36, 36);
+            this.heart.TabIndex = 75;
+            this.heart.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbBadge
+            // cape
             // 
-            this.pbBadge.BackColor = System.Drawing.Color.Transparent;
-            this.pbBadge.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbBadge.Item = null;
-            this.pbBadge.Location = new System.Drawing.Point(171, 48);
-            this.pbBadge.Name = "pbBadge";
-            this.pbBadge.Size = new System.Drawing.Size(36, 36);
-            this.pbBadge.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbBadge.TabIndex = 71;
-            this.pbBadge.TabStop = false;
+            this.cape.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cape.Cursor = System.Windows.Forms.Cursors.Default;
+            this.cape.Location = new System.Drawing.Point(170, 170);
+            this.cape.Name = "cape";
+            this.cape.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.cape.Properties.Appearance.Options.UseBackColor = true;
+            this.cape.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.cape.Properties.NullText = " ";
+            this.cape.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.cape.Properties.ZoomAccelerationFactor = 1D;
+            this.cape.Size = new System.Drawing.Size(36, 36);
+            this.cape.TabIndex = 74;
+            this.cape.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbMedal
+            // subweapon
             // 
-            this.pbMedal.BackColor = System.Drawing.Color.Transparent;
-            this.pbMedal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMedal.Item = null;
-            this.pbMedal.Location = new System.Drawing.Point(171, 89);
-            this.pbMedal.Name = "pbMedal";
-            this.pbMedal.Size = new System.Drawing.Size(36, 36);
-            this.pbMedal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMedal.TabIndex = 70;
-            this.pbMedal.TabStop = false;
+            this.subweapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subweapon.Cursor = System.Windows.Forms.Cursors.Default;
+            this.subweapon.Location = new System.Drawing.Point(170, 129);
+            this.subweapon.Name = "subweapon";
+            this.subweapon.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.subweapon.Properties.Appearance.Options.UseBackColor = true;
+            this.subweapon.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.subweapon.Properties.NullText = " ";
+            this.subweapon.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.subweapon.Properties.ZoomAccelerationFactor = 1D;
+            this.subweapon.Size = new System.Drawing.Size(36, 36);
+            this.subweapon.TabIndex = 73;
+            this.subweapon.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbSubWeapon
+            // medal
             // 
-            this.pbSubWeapon.BackColor = System.Drawing.Color.Transparent;
-            this.pbSubWeapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbSubWeapon.Item = null;
-            this.pbSubWeapon.Location = new System.Drawing.Point(171, 130);
-            this.pbSubWeapon.Name = "pbSubWeapon";
-            this.pbSubWeapon.Size = new System.Drawing.Size(36, 36);
-            this.pbSubWeapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbSubWeapon.TabIndex = 69;
-            this.pbSubWeapon.TabStop = false;
+            this.medal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.medal.Cursor = System.Windows.Forms.Cursors.Default;
+            this.medal.Location = new System.Drawing.Point(170, 88);
+            this.medal.Name = "medal";
+            this.medal.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.medal.Properties.Appearance.Options.UseBackColor = true;
+            this.medal.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.medal.Properties.NullText = " ";
+            this.medal.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.medal.Properties.ZoomAccelerationFactor = 1D;
+            this.medal.Size = new System.Drawing.Size(36, 36);
+            this.medal.TabIndex = 72;
+            this.medal.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbHeart
+            // badge
             // 
-            this.pbHeart.BackColor = System.Drawing.Color.Transparent;
-            this.pbHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbHeart.Item = null;
-            this.pbHeart.Location = new System.Drawing.Point(171, 212);
-            this.pbHeart.Name = "pbHeart";
-            this.pbHeart.Size = new System.Drawing.Size(36, 36);
-            this.pbHeart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbHeart.TabIndex = 68;
-            this.pbHeart.TabStop = false;
+            this.badge.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.badge.Cursor = System.Windows.Forms.Cursors.Default;
+            this.badge.Location = new System.Drawing.Point(170, 47);
+            this.badge.Name = "badge";
+            this.badge.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.badge.Properties.Appearance.Options.UseBackColor = true;
+            this.badge.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.badge.Properties.NullText = " ";
+            this.badge.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.badge.Properties.ZoomAccelerationFactor = 1D;
+            this.badge.Size = new System.Drawing.Size(36, 36);
+            this.badge.TabIndex = 71;
+            this.badge.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbAndroid
+            // emblem
             // 
-            this.pbAndroid.BackColor = System.Drawing.Color.Transparent;
-            this.pbAndroid.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbAndroid.Item = null;
-            this.pbAndroid.Location = new System.Drawing.Point(130, 212);
-            this.pbAndroid.Name = "pbAndroid";
-            this.pbAndroid.Size = new System.Drawing.Size(36, 36);
-            this.pbAndroid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbAndroid.TabIndex = 67;
-            this.pbAndroid.TabStop = false;
+            this.emblem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.emblem.Cursor = System.Windows.Forms.Cursors.Default;
+            this.emblem.Location = new System.Drawing.Point(170, 6);
+            this.emblem.Name = "emblem";
+            this.emblem.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.emblem.Properties.Appearance.Options.UseBackColor = true;
+            this.emblem.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.emblem.Properties.NullText = " ";
+            this.emblem.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.emblem.Properties.ZoomAccelerationFactor = 1D;
+            this.emblem.Size = new System.Drawing.Size(36, 36);
+            this.emblem.TabIndex = 70;
+            this.emblem.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbShoes
+            // android
             // 
-            this.pbShoes.BackColor = System.Drawing.Color.Transparent;
-            this.pbShoes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbShoes.Item = null;
-            this.pbShoes.Location = new System.Drawing.Point(89, 212);
-            this.pbShoes.Name = "pbShoes";
-            this.pbShoes.Size = new System.Drawing.Size(36, 36);
-            this.pbShoes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbShoes.TabIndex = 66;
-            this.pbShoes.TabStop = false;
+            this.android.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.android.Cursor = System.Windows.Forms.Cursors.Default;
+            this.android.Location = new System.Drawing.Point(129, 211);
+            this.android.Name = "android";
+            this.android.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.android.Properties.Appearance.Options.UseBackColor = true;
+            this.android.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.android.Properties.NullText = " ";
+            this.android.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.android.Properties.ZoomAccelerationFactor = 1D;
+            this.android.Size = new System.Drawing.Size(36, 36);
+            this.android.TabIndex = 69;
+            this.android.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbGloves
+            // gloves
             // 
-            this.pbGloves.BackColor = System.Drawing.Color.Transparent;
-            this.pbGloves.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbGloves.Item = null;
-            this.pbGloves.Location = new System.Drawing.Point(130, 171);
-            this.pbGloves.Name = "pbGloves";
-            this.pbGloves.Size = new System.Drawing.Size(36, 36);
-            this.pbGloves.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbGloves.TabIndex = 65;
-            this.pbGloves.TabStop = false;
+            this.gloves.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.gloves.Cursor = System.Windows.Forms.Cursors.Default;
+            this.gloves.Location = new System.Drawing.Point(129, 170);
+            this.gloves.Name = "gloves";
+            this.gloves.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.gloves.Properties.Appearance.Options.UseBackColor = true;
+            this.gloves.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.gloves.Properties.NullText = " ";
+            this.gloves.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.gloves.Properties.ZoomAccelerationFactor = 1D;
+            this.gloves.Size = new System.Drawing.Size(36, 36);
+            this.gloves.TabIndex = 68;
+            this.gloves.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbShoulder
+            // shoulder
             // 
-            this.pbShoulder.BackColor = System.Drawing.Color.Transparent;
-            this.pbShoulder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbShoulder.Item = null;
-            this.pbShoulder.Location = new System.Drawing.Point(130, 130);
-            this.pbShoulder.Name = "pbShoulder";
-            this.pbShoulder.Size = new System.Drawing.Size(36, 36);
-            this.pbShoulder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbShoulder.TabIndex = 64;
-            this.pbShoulder.TabStop = false;
+            this.shoulder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.shoulder.Cursor = System.Windows.Forms.Cursors.Default;
+            this.shoulder.Location = new System.Drawing.Point(129, 129);
+            this.shoulder.Name = "shoulder";
+            this.shoulder.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.shoulder.Properties.Appearance.Options.UseBackColor = true;
+            this.shoulder.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.shoulder.Properties.NullText = " ";
+            this.shoulder.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.shoulder.Properties.ZoomAccelerationFactor = 1D;
+            this.shoulder.Size = new System.Drawing.Size(36, 36);
+            this.shoulder.TabIndex = 67;
+            this.shoulder.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbBottom
+            // ear
             // 
-            this.pbBottom.BackColor = System.Drawing.Color.Transparent;
-            this.pbBottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbBottom.Item = null;
-            this.pbBottom.Location = new System.Drawing.Point(89, 171);
-            this.pbBottom.Name = "pbBottom";
-            this.pbBottom.Size = new System.Drawing.Size(36, 36);
-            this.pbBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbBottom.TabIndex = 63;
-            this.pbBottom.TabStop = false;
+            this.ear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ear.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ear.Location = new System.Drawing.Point(129, 88);
+            this.ear.Name = "ear";
+            this.ear.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.ear.Properties.Appearance.Options.UseBackColor = true;
+            this.ear.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.ear.Properties.NullText = " ";
+            this.ear.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.ear.Properties.ZoomAccelerationFactor = 1D;
+            this.ear.Size = new System.Drawing.Size(36, 36);
+            this.ear.TabIndex = 66;
+            this.ear.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbEar
+            // shoes
             // 
-            this.pbEar.BackColor = System.Drawing.Color.Transparent;
-            this.pbEar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbEar.Item = null;
-            this.pbEar.Location = new System.Drawing.Point(130, 89);
-            this.pbEar.Name = "pbEar";
-            this.pbEar.Size = new System.Drawing.Size(36, 36);
-            this.pbEar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbEar.TabIndex = 62;
-            this.pbEar.TabStop = false;
+            this.shoes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.shoes.Cursor = System.Windows.Forms.Cursors.Default;
+            this.shoes.Location = new System.Drawing.Point(88, 211);
+            this.shoes.Name = "shoes";
+            this.shoes.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.shoes.Properties.Appearance.Options.UseBackColor = true;
+            this.shoes.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.shoes.Properties.NullText = " ";
+            this.shoes.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.shoes.Properties.ZoomAccelerationFactor = 1D;
+            this.shoes.Size = new System.Drawing.Size(36, 36);
+            this.shoes.TabIndex = 65;
+            this.shoes.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbTop
+            // bottom
             // 
-            this.pbTop.BackColor = System.Drawing.Color.Transparent;
-            this.pbTop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbTop.Item = null;
-            this.pbTop.Location = new System.Drawing.Point(89, 130);
-            this.pbTop.Name = "pbTop";
-            this.pbTop.Size = new System.Drawing.Size(36, 36);
-            this.pbTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbTop.TabIndex = 61;
-            this.pbTop.TabStop = false;
+            this.bottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bottom.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bottom.Location = new System.Drawing.Point(88, 170);
+            this.bottom.Name = "bottom";
+            this.bottom.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.bottom.Properties.Appearance.Options.UseBackColor = true;
+            this.bottom.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.bottom.Properties.NullText = " ";
+            this.bottom.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.bottom.Properties.ZoomAccelerationFactor = 1D;
+            this.bottom.Size = new System.Drawing.Size(36, 36);
+            this.bottom.TabIndex = 64;
+            this.bottom.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbEye
+            // top
             // 
-            this.pbEye.BackColor = System.Drawing.Color.Transparent;
-            this.pbEye.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbEye.Item = null;
-            this.pbEye.Location = new System.Drawing.Point(89, 89);
-            this.pbEye.Name = "pbEye";
-            this.pbEye.Size = new System.Drawing.Size(36, 36);
-            this.pbEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbEye.TabIndex = 60;
-            this.pbEye.TabStop = false;
+            this.top.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.top.Cursor = System.Windows.Forms.Cursors.Default;
+            this.top.Location = new System.Drawing.Point(88, 129);
+            this.top.Name = "top";
+            this.top.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.top.Properties.Appearance.Options.UseBackColor = true;
+            this.top.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.top.Properties.NullText = " ";
+            this.top.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.top.Properties.ZoomAccelerationFactor = 1D;
+            this.top.Size = new System.Drawing.Size(36, 36);
+            this.top.TabIndex = 63;
+            this.top.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbFace
+            // eye
             // 
-            this.pbFace.BackColor = System.Drawing.Color.Transparent;
-            this.pbFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbFace.Item = null;
-            this.pbFace.Location = new System.Drawing.Point(89, 48);
-            this.pbFace.Name = "pbFace";
-            this.pbFace.Size = new System.Drawing.Size(36, 36);
-            this.pbFace.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbFace.TabIndex = 59;
-            this.pbFace.TabStop = false;
+            this.eye.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.eye.Cursor = System.Windows.Forms.Cursors.Default;
+            this.eye.Location = new System.Drawing.Point(88, 88);
+            this.eye.Name = "eye";
+            this.eye.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.eye.Properties.Appearance.Options.UseBackColor = true;
+            this.eye.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.eye.Properties.NullText = " ";
+            this.eye.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.eye.Properties.ZoomAccelerationFactor = 1D;
+            this.eye.Size = new System.Drawing.Size(36, 36);
+            this.eye.TabIndex = 62;
+            this.eye.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbHat
+            // face
             // 
-            this.pbHat.BackColor = System.Drawing.Color.Transparent;
-            this.pbHat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbHat.Item = null;
-            this.pbHat.Location = new System.Drawing.Point(89, 7);
-            this.pbHat.Name = "pbHat";
-            this.pbHat.Size = new System.Drawing.Size(36, 36);
-            this.pbHat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbHat.TabIndex = 58;
-            this.pbHat.TabStop = false;
+            this.face.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.face.Cursor = System.Windows.Forms.Cursors.Default;
+            this.face.Location = new System.Drawing.Point(88, 47);
+            this.face.Name = "face";
+            this.face.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.face.Properties.Appearance.Options.UseBackColor = true;
+            this.face.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.face.Properties.NullText = " ";
+            this.face.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.face.Properties.ZoomAccelerationFactor = 1D;
+            this.face.Size = new System.Drawing.Size(36, 36);
+            this.face.TabIndex = 61;
+            this.face.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbBelt
+            // hat
             // 
-            this.pbBelt.BackColor = System.Drawing.Color.Transparent;
-            this.pbBelt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbBelt.Item = null;
-            this.pbBelt.Location = new System.Drawing.Point(48, 171);
-            this.pbBelt.Name = "pbBelt";
-            this.pbBelt.Size = new System.Drawing.Size(36, 36);
-            this.pbBelt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbBelt.TabIndex = 57;
-            this.pbBelt.TabStop = false;
+            this.hat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.hat.Cursor = System.Windows.Forms.Cursors.Default;
+            this.hat.Location = new System.Drawing.Point(88, 6);
+            this.hat.Name = "hat";
+            this.hat.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.hat.Properties.Appearance.Options.UseBackColor = true;
+            this.hat.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.hat.Properties.NullText = " ";
+            this.hat.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.hat.Properties.ZoomAccelerationFactor = 1D;
+            this.hat.Size = new System.Drawing.Size(36, 36);
+            this.hat.TabIndex = 60;
+            this.hat.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbPendant1
+            // belt
             // 
-            this.pbPendant1.BackColor = System.Drawing.Color.Transparent;
-            this.pbPendant1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbPendant1.Item = null;
-            this.pbPendant1.Location = new System.Drawing.Point(48, 89);
-            this.pbPendant1.Name = "pbPendant1";
-            this.pbPendant1.Size = new System.Drawing.Size(36, 36);
-            this.pbPendant1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPendant1.TabIndex = 56;
-            this.pbPendant1.TabStop = false;
+            this.belt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.belt.Cursor = System.Windows.Forms.Cursors.Default;
+            this.belt.Location = new System.Drawing.Point(47, 170);
+            this.belt.Name = "belt";
+            this.belt.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.belt.Properties.Appearance.Options.UseBackColor = true;
+            this.belt.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.belt.Properties.NullText = " ";
+            this.belt.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.belt.Properties.ZoomAccelerationFactor = 1D;
+            this.belt.Size = new System.Drawing.Size(36, 36);
+            this.belt.TabIndex = 59;
+            this.belt.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbPendant2
+            // weapon
             // 
-            this.pbPendant2.BackColor = System.Drawing.Color.Transparent;
-            this.pbPendant2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbPendant2.Item = null;
-            this.pbPendant2.Location = new System.Drawing.Point(48, 48);
-            this.pbPendant2.Name = "pbPendant2";
-            this.pbPendant2.Size = new System.Drawing.Size(36, 36);
-            this.pbPendant2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPendant2.TabIndex = 55;
-            this.pbPendant2.TabStop = false;
+            this.weapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.weapon.Cursor = System.Windows.Forms.Cursors.Default;
+            this.weapon.Location = new System.Drawing.Point(47, 129);
+            this.weapon.Name = "weapon";
+            this.weapon.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.weapon.Properties.Appearance.Options.UseBackColor = true;
+            this.weapon.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.weapon.Properties.NullText = " ";
+            this.weapon.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.weapon.Properties.ZoomAccelerationFactor = 1D;
+            this.weapon.Size = new System.Drawing.Size(36, 36);
+            this.weapon.TabIndex = 58;
+            this.weapon.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbBook
+            // pendant1
             // 
-            this.pbBook.BackColor = System.Drawing.Color.Transparent;
-            this.pbBook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbBook.Item = null;
-            this.pbBook.Location = new System.Drawing.Point(7, 212);
-            this.pbBook.Name = "pbBook";
-            this.pbBook.Size = new System.Drawing.Size(36, 36);
-            this.pbBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbBook.TabIndex = 54;
-            this.pbBook.TabStop = false;
+            this.pendant1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pendant1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pendant1.Location = new System.Drawing.Point(47, 88);
+            this.pendant1.Name = "pendant1";
+            this.pendant1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pendant1.Properties.Appearance.Options.UseBackColor = true;
+            this.pendant1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pendant1.Properties.NullText = " ";
+            this.pendant1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pendant1.Properties.ZoomAccelerationFactor = 1D;
+            this.pendant1.Size = new System.Drawing.Size(36, 36);
+            this.pendant1.TabIndex = 57;
+            this.pendant1.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbPocket
+            // pendant2
             // 
-            this.pbPocket.BackColor = System.Drawing.Color.Transparent;
-            this.pbPocket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbPocket.Item = null;
-            this.pbPocket.Location = new System.Drawing.Point(7, 171);
-            this.pbPocket.Name = "pbPocket";
-            this.pbPocket.Size = new System.Drawing.Size(36, 36);
-            this.pbPocket.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbPocket.TabIndex = 53;
-            this.pbPocket.TabStop = false;
+            this.pendant2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pendant2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pendant2.Location = new System.Drawing.Point(47, 47);
+            this.pendant2.Name = "pendant2";
+            this.pendant2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pendant2.Properties.Appearance.Options.UseBackColor = true;
+            this.pendant2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pendant2.Properties.NullText = " ";
+            this.pendant2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pendant2.Properties.ZoomAccelerationFactor = 1D;
+            this.pendant2.Size = new System.Drawing.Size(36, 36);
+            this.pendant2.TabIndex = 56;
+            this.pendant2.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbRing1
+            // book
             // 
-            this.pbRing1.BackColor = System.Drawing.Color.Transparent;
-            this.pbRing1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbRing1.Item = null;
-            this.pbRing1.Location = new System.Drawing.Point(7, 130);
-            this.pbRing1.Name = "pbRing1";
-            this.pbRing1.Size = new System.Drawing.Size(36, 36);
-            this.pbRing1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbRing1.TabIndex = 52;
-            this.pbRing1.TabStop = false;
+            this.book.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.book.Cursor = System.Windows.Forms.Cursors.Default;
+            this.book.Location = new System.Drawing.Point(6, 211);
+            this.book.Name = "book";
+            this.book.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.book.Properties.Appearance.Options.UseBackColor = true;
+            this.book.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.book.Properties.NullText = " ";
+            this.book.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.book.Properties.ZoomAccelerationFactor = 1D;
+            this.book.Size = new System.Drawing.Size(36, 36);
+            this.book.TabIndex = 55;
+            this.book.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbRing2
+            // pocket
             // 
-            this.pbRing2.BackColor = System.Drawing.Color.Transparent;
-            this.pbRing2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbRing2.Item = null;
-            this.pbRing2.Location = new System.Drawing.Point(7, 89);
-            this.pbRing2.Name = "pbRing2";
-            this.pbRing2.Size = new System.Drawing.Size(36, 36);
-            this.pbRing2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbRing2.TabIndex = 51;
-            this.pbRing2.TabStop = false;
+            this.pocket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pocket.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pocket.Location = new System.Drawing.Point(6, 170);
+            this.pocket.Name = "pocket";
+            this.pocket.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pocket.Properties.Appearance.Options.UseBackColor = true;
+            this.pocket.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pocket.Properties.NullText = " ";
+            this.pocket.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pocket.Properties.ZoomAccelerationFactor = 1D;
+            this.pocket.Size = new System.Drawing.Size(36, 36);
+            this.pocket.TabIndex = 54;
+            this.pocket.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbRing3
+            // ring4
             // 
-            this.pbRing3.BackColor = System.Drawing.Color.Transparent;
-            this.pbRing3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbRing3.Item = null;
-            this.pbRing3.Location = new System.Drawing.Point(7, 48);
-            this.pbRing3.Name = "pbRing3";
-            this.pbRing3.Size = new System.Drawing.Size(36, 36);
-            this.pbRing3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbRing3.TabIndex = 50;
-            this.pbRing3.TabStop = false;
+            this.ring4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ring4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ring4.Location = new System.Drawing.Point(6, 129);
+            this.ring4.Name = "ring4";
+            this.ring4.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.ring4.Properties.Appearance.Options.UseBackColor = true;
+            this.ring4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.ring4.Properties.NullText = " ";
+            this.ring4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.ring4.Properties.ZoomAccelerationFactor = 1D;
+            this.ring4.Size = new System.Drawing.Size(36, 36);
+            this.ring4.TabIndex = 53;
+            this.ring4.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbRing4
+            // ring3
             // 
-            this.pbRing4.BackColor = System.Drawing.Color.Transparent;
-            this.pbRing4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbRing4.Item = null;
-            this.pbRing4.Location = new System.Drawing.Point(7, 7);
-            this.pbRing4.Name = "pbRing4";
-            this.pbRing4.Size = new System.Drawing.Size(36, 36);
-            this.pbRing4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbRing4.TabIndex = 49;
-            this.pbRing4.TabStop = false;
+            this.ring3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ring3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ring3.Location = new System.Drawing.Point(6, 88);
+            this.ring3.Name = "ring3";
+            this.ring3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.ring3.Properties.Appearance.Options.UseBackColor = true;
+            this.ring3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.ring3.Properties.NullText = " ";
+            this.ring3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.ring3.Properties.ZoomAccelerationFactor = 1D;
+            this.ring3.Size = new System.Drawing.Size(36, 36);
+            this.ring3.TabIndex = 52;
+            this.ring3.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbWeapon
+            // ring2
             // 
-            this.pbWeapon.BackColor = System.Drawing.Color.Transparent;
-            this.pbWeapon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbWeapon.Item = null;
-            this.pbWeapon.Location = new System.Drawing.Point(48, 130);
-            this.pbWeapon.Name = "pbWeapon";
-            this.pbWeapon.Size = new System.Drawing.Size(36, 36);
-            this.pbWeapon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbWeapon.TabIndex = 48;
-            this.pbWeapon.TabStop = false;
+            this.ring2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ring2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ring2.Location = new System.Drawing.Point(6, 47);
+            this.ring2.Name = "ring2";
+            this.ring2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.ring2.Properties.Appearance.Options.UseBackColor = true;
+            this.ring2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.ring2.Properties.NullText = " ";
+            this.ring2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.ring2.Properties.ZoomAccelerationFactor = 1D;
+            this.ring2.Size = new System.Drawing.Size(36, 36);
+            this.ring2.TabIndex = 51;
+            this.ring2.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbCape
+            // ring1
             // 
-            this.pbCape.BackColor = System.Drawing.Color.Transparent;
-            this.pbCape.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbCape.Item = null;
-            this.pbCape.Location = new System.Drawing.Point(171, 171);
-            this.pbCape.Name = "pbCape";
-            this.pbCape.Size = new System.Drawing.Size(36, 36);
-            this.pbCape.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbCape.TabIndex = 47;
-            this.pbCape.TabStop = false;
+            this.ring1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ring1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ring1.Location = new System.Drawing.Point(6, 6);
+            this.ring1.Name = "ring1";
+            this.ring1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.ring1.Properties.Appearance.Options.UseBackColor = true;
+            this.ring1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.ring1.Properties.NullText = " ";
+            this.ring1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.ring1.Properties.ZoomAccelerationFactor = 1D;
+            this.ring1.Size = new System.Drawing.Size(36, 36);
+            this.ring1.TabIndex = 50;
+            this.ring1.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
             // panelMir
             // 
             this.panelMir.BackgroundImage = global::MapleEquips.Properties.Resources.Blank_Mir;
             this.panelMir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelMir.Controls.Add(this.pbMirTail);
-            this.panelMir.Controls.Add(this.pbMirWing);
-            this.panelMir.Controls.Add(this.pbMirPendant);
-            this.panelMir.Controls.Add(this.pbMirHat);
+            this.panelMir.Controls.Add(this.pictureEdit49);
+            this.panelMir.Controls.Add(this.pictureEdit48);
+            this.panelMir.Controls.Add(this.pictureEdit47);
+            this.panelMir.Controls.Add(this.pictureEdit46);
             this.panelMir.Location = new System.Drawing.Point(940, 41);
             this.panelMir.Name = "panelMir";
             this.panelMir.Size = new System.Drawing.Size(214, 256);
             this.panelMir.TabIndex = 0;
             // 
-            // pbMirTail
+            // pictureEdit44
             // 
-            this.pbMirTail.BackColor = System.Drawing.Color.Transparent;
-            this.pbMirTail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMirTail.Item = null;
-            this.pbMirTail.Location = new System.Drawing.Point(162, 107);
-            this.pbMirTail.Name = "pbMirTail";
-            this.pbMirTail.Size = new System.Drawing.Size(36, 36);
-            this.pbMirTail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMirTail.TabIndex = 76;
-            this.pbMirTail.TabStop = false;
+            this.pictureEdit44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit44.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit44.Location = new System.Drawing.Point(92, 182);
+            this.pictureEdit44.Name = "pictureEdit44";
+            this.pictureEdit44.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit44.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit44.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit44.Properties.NullText = " ";
+            this.pictureEdit44.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit44.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit44.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit44.TabIndex = 82;
+            this.pictureEdit44.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbMirWing
+            // pictureEdit45
             // 
-            this.pbMirWing.BackColor = System.Drawing.Color.Transparent;
-            this.pbMirWing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMirWing.Item = null;
-            this.pbMirWing.Location = new System.Drawing.Point(112, 72);
-            this.pbMirWing.Name = "pbMirWing";
-            this.pbMirWing.Size = new System.Drawing.Size(36, 36);
-            this.pbMirWing.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMirWing.TabIndex = 75;
-            this.pbMirWing.TabStop = false;
+            this.pictureEdit45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit45.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit45.Location = new System.Drawing.Point(160, 155);
+            this.pictureEdit45.Name = "pictureEdit45";
+            this.pictureEdit45.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit45.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit45.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit45.Properties.NullText = " ";
+            this.pictureEdit45.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit45.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit45.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit45.TabIndex = 83;
+            this.pictureEdit45.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbMirPendant
+            // pictureEdit46
             // 
-            this.pbMirPendant.BackColor = System.Drawing.Color.Transparent;
-            this.pbMirPendant.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMirPendant.Item = null;
-            this.pbMirPendant.Location = new System.Drawing.Point(53, 131);
-            this.pbMirPendant.Name = "pbMirPendant";
-            this.pbMirPendant.Size = new System.Drawing.Size(36, 36);
-            this.pbMirPendant.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMirPendant.TabIndex = 74;
-            this.pbMirPendant.TabStop = false;
+            this.pictureEdit46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit46.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit46.Location = new System.Drawing.Point(15, 72);
+            this.pictureEdit46.Name = "pictureEdit46";
+            this.pictureEdit46.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit46.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit46.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit46.Properties.NullText = " ";
+            this.pictureEdit46.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit46.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit46.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit46.TabIndex = 84;
+            this.pictureEdit46.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pbMirHat
+            // pictureEdit47
             // 
-            this.pbMirHat.BackColor = System.Drawing.Color.Transparent;
-            this.pbMirHat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbMirHat.Item = null;
-            this.pbMirHat.Location = new System.Drawing.Point(15, 72);
-            this.pbMirHat.Name = "pbMirHat";
-            this.pbMirHat.Size = new System.Drawing.Size(36, 36);
-            this.pbMirHat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMirHat.TabIndex = 73;
-            this.pbMirHat.TabStop = false;
+            this.pictureEdit47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit47.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit47.Location = new System.Drawing.Point(53, 130);
+            this.pictureEdit47.Name = "pictureEdit47";
+            this.pictureEdit47.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit47.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit47.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit47.Properties.NullText = " ";
+            this.pictureEdit47.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit47.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit47.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit47.TabIndex = 85;
+            this.pictureEdit47.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // pictureEdit1
+            // pictureEdit48
             // 
-            this.pictureEdit1.BackgroundImage = global::MapleEquips.Properties.Resources.Black_Cube;
-            this.pictureEdit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureEdit1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureEdit1.Location = new System.Drawing.Point(553, 145);
-            this.pictureEdit1.Name = "pictureEdit1";
-            this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Properties.ZoomAccelerationFactor = 1D;
-            this.pictureEdit1.Size = new System.Drawing.Size(36, 36);
-            this.pictureEdit1.TabIndex = 49;
-            this.pictureEdit1.MouseHover += new System.EventHandler(this.equipmentHover);
+            this.pictureEdit48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit48.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit48.Location = new System.Drawing.Point(112, 71);
+            this.pictureEdit48.Name = "pictureEdit48";
+            this.pictureEdit48.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit48.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit48.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit48.Properties.NullText = " ";
+            this.pictureEdit48.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit48.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit48.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit48.TabIndex = 86;
+            this.pictureEdit48.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
-            // enhancedToolTip1
+            // pictureEdit49
             // 
-            this.enhancedToolTip1.AutoSize = false;
-            this.enhancedToolTip1.BackColor = System.Drawing.Color.Transparent;
-            this.enhancedToolTip1.BorderColor = System.Drawing.Color.Transparent;
-            this.enhancedToolTip1.OwnerDraw = true;
-            this.enhancedToolTip1.Size = new System.Drawing.Size(200, 100);
+            this.pictureEdit49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit49.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit49.Location = new System.Drawing.Point(162, 106);
+            this.pictureEdit49.Name = "pictureEdit49";
+            this.pictureEdit49.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit49.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit49.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit49.Properties.NullText = " ";
+            this.pictureEdit49.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit49.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit49.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit49.TabIndex = 87;
+            this.pictureEdit49.MouseHover += new System.EventHandler(this.equipmentHover);
+            // 
+            // pictureEdit50
+            // 
+            this.pictureEdit50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureEdit50.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit50.Location = new System.Drawing.Point(47, 130);
+            this.pictureEdit50.Name = "pictureEdit50";
+            this.pictureEdit50.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit50.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit50.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pictureEdit50.Properties.NullText = " ";
+            this.pictureEdit50.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit50.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEdit50.Size = new System.Drawing.Size(36, 36);
+            this.pictureEdit50.TabIndex = 88;
+            this.pictureEdit50.MouseHover += new System.EventHandler(this.equipmentHover);
             // 
             // Form1
             // 
@@ -1278,7 +1463,6 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.ClientSize = new System.Drawing.Size(1164, 603);
-            this.Controls.Add(this.pictureEdit1);
             this.Controls.Add(this.panelHaku);
             this.Controls.Add(this.statsGroupBox);
             this.Controls.Add(this.panelMech);
@@ -1295,63 +1479,62 @@
             this.menuStrip1.PerformLayout();
             this.statsGroupBox.ResumeLayout(false);
             this.statsGroupBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit8.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
             this.panelHaku.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbHakuFan)).EndInit();
             this.panelMech.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechLeg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechArm)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechEngine)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechFrame)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMechTransistor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit43.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit42.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit41.Properties)).EndInit();
             this.panelArc.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLach)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChuChu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbVanishing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit40.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit39.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit38.Properties)).EndInit();
             this.panelTotem.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbTotem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTotem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTotem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totem1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totem2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.totem3.Properties)).EndInit();
             this.panelEquip.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbEmblem)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBadge)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMedal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSubWeapon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHeart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAndroid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbShoes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbGloves)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbShoulder)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBottom)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTop)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEye)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFace)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHat)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBelt)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPendant1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPendant2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBook)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbPocket)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRing4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCape)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cape.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subweapon.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medal.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.badge.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emblem.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.android.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gloves.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shoulder.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ear.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shoes.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bottom.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.top.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eye.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.face.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hat.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.belt.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.weapon.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pendant1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pendant2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.book.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pocket.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ring1.Properties)).EndInit();
             this.panelMir.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirTail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirWing)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirPendant)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMirHat)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit44.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit45.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit46.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit47.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit48.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit49.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit50.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1373,87 +1556,85 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox1;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox3;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox4;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox5;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox6;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox7;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label15;
-        private MapleEquips.Objects.EnhancedPictureBox pictureBox8;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.GroupBox statsGroupBox;
-        private MapleEquips.Objects.EnhancedPictureBox pbCape;
-        private MapleEquips.Objects.EnhancedPictureBox pbWeapon;
-        private MapleEquips.Objects.EnhancedPictureBox pbEmblem;
-        private MapleEquips.Objects.EnhancedPictureBox pbBadge;
-        private MapleEquips.Objects.EnhancedPictureBox pbMedal;
-        private MapleEquips.Objects.EnhancedPictureBox pbSubWeapon;
-        private MapleEquips.Objects.EnhancedPictureBox pbHeart;
-        private MapleEquips.Objects.EnhancedPictureBox pbAndroid;
-        private MapleEquips.Objects.EnhancedPictureBox pbShoes;
-        private MapleEquips.Objects.EnhancedPictureBox pbGloves;
-        private MapleEquips.Objects.EnhancedPictureBox pbShoulder;
-        private MapleEquips.Objects.EnhancedPictureBox pbBottom;
-        private MapleEquips.Objects.EnhancedPictureBox pbEar;
-        private MapleEquips.Objects.EnhancedPictureBox pbTop;
-        private MapleEquips.Objects.EnhancedPictureBox pbEye;
-        private MapleEquips.Objects.EnhancedPictureBox pbFace;
-        private MapleEquips.Objects.EnhancedPictureBox pbHat;
-        private MapleEquips.Objects.EnhancedPictureBox pbBelt;
-        private MapleEquips.Objects.EnhancedPictureBox pbPendant1;
-        private MapleEquips.Objects.EnhancedPictureBox pbPendant2;
-        private MapleEquips.Objects.EnhancedPictureBox pbBook;
-        private MapleEquips.Objects.EnhancedPictureBox pbPocket;
-        private MapleEquips.Objects.EnhancedPictureBox pbRing1;
-        private MapleEquips.Objects.EnhancedPictureBox pbRing2;
-        private MapleEquips.Objects.EnhancedPictureBox pbRing3;
-        private MapleEquips.Objects.EnhancedPictureBox pbRing4;
-        private MapleEquips.Objects.EnhancedPictureBox pbMechLeg;
-        private MapleEquips.Objects.EnhancedPictureBox pbMechArm;
-        private MapleEquips.Objects.EnhancedPictureBox pbMechEngine;
-        private MapleEquips.Objects.EnhancedPictureBox pbMechFrame;
-        private MapleEquips.Objects.EnhancedPictureBox pbMechTransistor;
-        private MapleEquips.Objects.EnhancedPictureBox pbVanishing;
-        private MapleEquips.Objects.EnhancedPictureBox pbTotem3;
-        private MapleEquips.Objects.EnhancedPictureBox pbTotem2;
-        private MapleEquips.Objects.EnhancedPictureBox pbTotem1;
-        private MapleEquips.Objects.EnhancedPictureBox pbMirTail;
-        private MapleEquips.Objects.EnhancedPictureBox pbMirWing;
-        private MapleEquips.Objects.EnhancedPictureBox pbMirPendant;
-        private MapleEquips.Objects.EnhancedPictureBox pbMirHat;
-        private MapleEquips.Objects.EnhancedPictureBox pbLach;
-        private MapleEquips.Objects.EnhancedPictureBox pbChuChu;
         private System.Windows.Forms.Panel panelHaku;
-        private MapleEquips.Objects.EnhancedPictureBox pbHakuFan;
-        private Objects.EnhancedToolTip enhancedToolTip1;
         private DevExpress.Utils.ToolTipController toolTipController1;
-        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
+        private DevExpress.XtraEditors.PictureEdit totem3;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit2;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit3;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit9;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit8;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit7;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit6;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit5;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit4;
+        private DevExpress.XtraEditors.PictureEdit totem1;
+        private DevExpress.XtraEditors.PictureEdit totem2;
+        private DevExpress.XtraEditors.PictureEdit pocket;
+        private DevExpress.XtraEditors.PictureEdit ring4;
+        private DevExpress.XtraEditors.PictureEdit ring3;
+        private DevExpress.XtraEditors.PictureEdit ring1;
+        private DevExpress.XtraEditors.PictureEdit heart;
+        private DevExpress.XtraEditors.PictureEdit cape;
+        private DevExpress.XtraEditors.PictureEdit subweapon;
+        private DevExpress.XtraEditors.PictureEdit medal;
+        private DevExpress.XtraEditors.PictureEdit badge;
+        private DevExpress.XtraEditors.PictureEdit emblem;
+        private DevExpress.XtraEditors.PictureEdit android;
+        private DevExpress.XtraEditors.PictureEdit gloves;
+        private DevExpress.XtraEditors.PictureEdit shoulder;
+        private DevExpress.XtraEditors.PictureEdit ear;
+        private DevExpress.XtraEditors.PictureEdit shoes;
+        private DevExpress.XtraEditors.PictureEdit bottom;
+        private DevExpress.XtraEditors.PictureEdit top;
+        private DevExpress.XtraEditors.PictureEdit eye;
+        private DevExpress.XtraEditors.PictureEdit face;
+        private DevExpress.XtraEditors.PictureEdit hat;
+        private DevExpress.XtraEditors.PictureEdit belt;
+        private DevExpress.XtraEditors.PictureEdit weapon;
+        private DevExpress.XtraEditors.PictureEdit pendant1;
+        private DevExpress.XtraEditors.PictureEdit pendant2;
+        private DevExpress.XtraEditors.PictureEdit book;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit40;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit39;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit38;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit43;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit42;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit41;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit50;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit45;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit44;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit49;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit48;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit47;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit46;
+        private DevExpress.XtraEditors.PictureEdit ring2;
     }
 }
 

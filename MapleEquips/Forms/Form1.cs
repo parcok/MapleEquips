@@ -17,20 +17,11 @@ namespace MapleEquips {
         Item itemTest = new Item("Test Name", 500, 250, 300, 400);
         public Form1() {
             InitializeComponent();
-            pbBook.Item = itemTest;
-            pbBook.Image = MapleEquips.Properties.Resources.ChuChu;
-            //Width = 1182;
-            pbBook.Item = itemTest;
             //panelMir.Location = new Point(461, 41);
             //this.Width = 715;
             //statsGroupBox.Location = new Point(81, 310);
-            pbTotem3.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
-            pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
-            pbMirWing.Image = MapleEquips.Properties.Resources.ChuChu;
-            pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
-            pbMirPendant.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
-            pbMechFrame.Image = MapleEquips.Properties.Resources.ChuChu;
-            pbMechTransistor.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
+            //pbTotem3.BackgroundImage = MapleEquips.Properties.Resources.ChuChu;
+            //pbMirHat.Image = MapleEquips.Properties.Resources.ChuChu;
         }
 
         private void newCharacterToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -67,28 +58,34 @@ namespace MapleEquips {
             item1.Image = resImage;
             item1.Text = "Show the Edit popup menu";
             tip.Items.Add(item1);
-            pictureEdit1.SuperTip = tip;
+            totem3.SuperTip = tip;
         }
 
         private void equipmentHover(object sender, EventArgs e) {
-            DevExpress.XtraEditors.PictureEdit box = (DevExpress.XtraEditors.PictureEdit)sender;
-            DevExpress.Utils.SuperToolTip tip = new DevExpress.Utils.SuperToolTip();
-            SuperToolTipSetupArgs itemInfo = new SuperToolTipSetupArgs();
-            SQLiteConnection m_dbConnection = new SQLiteConnection("Data Source=Database.db;Version=3;");
-            m_dbConnection.Open();
-            string sql = "select * from equips where equipSlot='" + box.Name + "'";
-            SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
-            SQLiteDataReader reader = command.ExecuteReader();
-            if (reader.Read()) {
-                itemInfo.Title.Text = reader["title"].ToString();
-                itemInfo.Contents.Image = box.BackgroundImage;
-                //itemInfo.Contents.Text = "STR: 10\r\nDEX: 10\nINT: 23\nLUK: 69";
-                itemInfo.Contents.Text = Convert.ToString(reader["text"]);//.ToString().Replace("\n",Environment.NewLine);
-                itemInfo.ShowFooterSeparator = true;
-                itemInfo.Footer.Text = reader["footer"].ToString();
+            try {
+                DevExpress.XtraEditors.PictureEdit box = (DevExpress.XtraEditors.PictureEdit)sender;
+                DevExpress.Utils.SuperToolTip tip = new DevExpress.Utils.SuperToolTip();
+                SuperToolTipSetupArgs itemInfo = new SuperToolTipSetupArgs();
+                SQLiteConnection m_dbConnection = new SQLiteConnection("Data Source=Database.db;Version=3;");
+                m_dbConnection.Open();
+                string sql = "select * from equips where equipSlot='" + box.Name + "'";
+                Console.WriteLine(sql);
+                SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
+                SQLiteDataReader reader = command.ExecuteReader();
+                if (reader.Read()) {
+                    Console.WriteLine("Result set found!");
+                    Console.WriteLine("Title: " + reader["title"] + "\tText: " + reader["text"]);
+                    itemInfo.Title.Text = Convert.ToString(reader["title"]);
+                    itemInfo.Contents.Image = box.BackgroundImage;
+                    itemInfo.Contents.Text = Convert.ToString(reader["text"]).Replace("<br>", "\r\n");
+                    itemInfo.ShowFooterSeparator = true;
+                    itemInfo.Footer.Text = Convert.ToString(reader["footer"]).Replace("<br>", "\r\n");
+                }
+                tip.Setup(itemInfo);
+                box.SuperTip = tip;
+            } catch {
+                MessageBox.Show("There was an error showing the equipment stats.");
             }
-            tip.Setup(itemInfo);
-            pictureEdit1.SuperTip = tip;
         }
 
 
